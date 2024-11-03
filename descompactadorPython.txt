@@ -1,0 +1,21 @@
+import tarfile
+
+def descompactar_tar_gz(arquivo_tar, destino='.'):
+    """
+    Descompacta um arquivo .tar.gz para um diretório específico.
+
+    Args:
+        arquivo_tar (str): Caminho para o arquivo .tar.gz.
+        destino (str): Diretório onde o conteúdo será extraído (padrão: diretório atual).
+    """
+    try:
+        with tarfile.open(arquivo_tar, 'r:gz') as tar:
+            print(f"Extraindo '{arquivo_tar}' para o diretório '{destino}'...")
+            tar.extractall(path=destino)
+            print("Extração concluída.")
+            print("Arquivos extraídos:", tar.getnames())
+    except Exception as e:
+        print(f"Erro ao descompactar o arquivo: {e}")
+
+# Exemplo de uso
+descompactar_tar_gz('meu_arquivo.tar.gz', destino='diretorio_destino')
