@@ -1,0 +1,679 @@
+{
+  "mensagens_violacao": [
+    {
+      "mensagem": "[Employee → Investor] \"I can tell you that Client X just placed a large buy order. You should jump in before the news spreads.\"",
+      "violacao": "Revealing confidential client-specific order information.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s give our preferred investor a heads-up that we’re about to raise the price on this bond issuance.\"",
+      "violacao": "Privileged treatment to a specific investor about pricing.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Tomorrow, I'm going to share with you the exact amounts other clients are buying. It might help you decide on your bid.\"",
+      "violacao": "Sharing individualized order details that should be confidential.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"If we hint to certain clients that the market is about to drop, they might sell early, driving the price down so we can buy cheap.\"",
+      "violacao": "Inducing clients to move the market artificially for personal gain.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our traders just received a massive sell order on that stock. If you short it now, you'll profit before the price crashes.\"",
+      "violacao": "Leaking specific order flow to an investor, encouraging market manipulation.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s hold off posting those trades until the end of the day to keep the price elevated.\"",
+      "violacao": "Attempt to manipulate the market closing price by delaying trades.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We’ve internally decided to increase our mortgage-backed securities pricing tomorrow. Position yourself now.\"",
+      "violacao": "Sharing internal pricing decision before formal announcement.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Don't let the operations team know, but I’m about to leak the partial order book to our top client for a quick heads-up.\"",
+      "violacao": "Improper disclosure of the order book to a third party without need-to-know basis.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I have exclusive info on how the bank plans to price next week's IPO. This will give you a major advantage.\"",
+      "violacao": "Providing internal pricing strategy to an investor for advantage.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"If we quietly inform certain hedge funds about our upcoming price upgrade, they might boost the stock before we do the official announcement.\"",
+      "violacao": "Sharing price-sensitive info to manipulate the market ahead of an announcement.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We know from internal data that many clients will sell tomorrow. It might be wise to short heavily.\"",
+      "violacao": "Disclosure of confidential client trading intentions to an investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s leak a rumor to push the price down so our internal desk can buy at a discount.\"",
+      "violacao": "Coordinating a rumor-based manipulation scheme.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ll tell you exactly which clients are pulling out of the fund. This info stays between us, of course.\"",
+      "violacao": "Providing individualized customer withdrawal details.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Remember to give our preferred client a confidential preview of the next bond issuance terms.\"",
+      "violacao": "Offering privileged issuance terms to a specific client.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our desk just moved the model pool by 0.3%. If you buy now, you’ll profit when we adjust publicly.\"",
+      "violacao": "Sharing internal pricing model adjustments prematurely.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s instruct the traders to delay large sell orders so the price stays high, pleasing our issuer.\"",
+      "violacao": "Manipulating market timing to keep prices artificially high.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We have details on every big player’s next move in this secondary offering. Want them?\"",
+      "violacao": "Offering specific details on other investors’ orders in a secondary offering.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Make sure the CFO of the company knows we expect the stock to surge, so they can push the price further up before the announcement.\"",
+      "violacao": "Encouraging the issuer to influence the stock price based on non-public info.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"If you promise to buy more at the next issuance, I'll tell you how our internal team values this bond portfolio.\"",
+      "violacao": "Trading confidential internal valuation for investor commitment.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s quietly push the rumor that demand is off the charts, so more clients buy before pricing.\"",
+      "violacao": "Spreading misleading information to manipulate demand.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I've seen the big orders on our system. You should sell now before everyone else reacts.\"",
+      "violacao": "Confidential order flow disclosure to a single investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"We need to share the upcoming dividend changes with select clients so they buy more shares.\"",
+      "violacao": "Providing inside information about dividends to certain clients for an unfair advantage.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I'll give you the exact volume we received in buy orders this morning. Keep it confidential.\"",
+      "violacao": "Revealing specific buy-order volume to one investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"To prop up the closing price, let’s match only the large buy orders until final minutes.\"",
+      "violacao": "Coordinating trades to artificially inflate closing price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our modeling desk decided to tweak the pool valuation tomorrow, so if you buy bonds now, you’ll gain once the official pricing hits.\"",
+      "violacao": "Sharing insider pool valuation changes prematurely.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let's tell the top fund managers that we anticipate a 10% price jump, so they can buy early and boost the share price.\"",
+      "violacao": "Encouraging specific investors to move the price with non-public info.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We have a behind-the-scenes agreement with the issuer to set the stock price above $5. You might want to buy now.\"",
+      "violacao": "Disclosing internal agreement on target pricing for an unfair advantage.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Leak the partial order book to our affiliate so they can adjust their bidding strategy accordingly.\"",
+      "violacao": "Sharing confidential order book information with an affiliate.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We just got an inside tip from the syndicate desk. If you buy up shares now, you'll profit when we adjust the model later.\"",
+      "violacao": "Passing along insider syndicate desk info for profit.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"We have to show a strong close for this stock. Let's selectively execute only buy orders in the last 15 minutes.\"",
+      "violacao": "Market manipulation by selectively executing orders to influence closing price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We have direct knowledge of the competitor’s large upcoming sell order. You should front-run it.\"",
+      "violacao": "Encouraging front-running based on confidential competitor orders.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"If we announce artificially high demand, we can push the price higher for this new issuance.\"",
+      "violacao": "Misrepresenting market demand to manipulate issuance price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I see a major investor’s exact position. They’re about to dump everything. Time to sell.\"",
+      "violacao": "Disclosing another investor’s specific position and strategy.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"We should coordinate with the issuer to underprice the offering initially, so our select clients can jump in early.\"",
+      "violacao": "Manipulating initial pricing to favor certain clients.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I have the inside track on how the bank will adjust the mortgage bond spread. Act now before it’s official.\"",
+      "violacao": "Leaking insider spread adjustment information.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s sit on these sell orders until next week so the price doesn’t drop during the roadshow.\"",
+      "violacao": "Holding back sell orders to artificially support pricing.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’m forwarding you a confidential list of all pending orders. Just keep this between us.\"",
+      "violacao": "Sharing detailed pending orders with an external investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Give that major fund manager a hint that we will downgrade the stock after they exit.\"",
+      "violacao": "Providing a tip about a future downgrade to help an investor exit first.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our internal modeling is set to shift the benchmark tomorrow. You can profit if you place orders tonight.\"",
+      "violacao": "Disclosing internal benchmark shift timing to an investor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We should suggest to the CFO to repurchase shares right after we release the favorable report, ensuring the stock jumps.\"",
+      "violacao": "Encouraging issuer to manipulate timing of share buybacks for price movement.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ve got the exact breakdown of who’s participating in the bond deal. You’ll know who to undercut.\"",
+      "violacao": "Disclosing confidential participation details in a bond deal.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let’s align with the Sales desk to raise the price range by 0.5% and tell a few key investors to buy early.\"",
+      "violacao": "Colluding to increase price range and inform certain investors first.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We have undisclosed metrics showing strong demand. If you triple your order, we’ll make sure you get priority allocation.\"",
+      "violacao": "Offering priority allocation in exchange for a larger order, using undisclosed demand data.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We need to leak the rumor that a big player is coming in. The hype will push the price up before we sell.\"",
+      "violacao": "Leaking unverified rumors to inflate price artificially.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I can divulge how each broker is positioning on this ETF. It’s strictly off the record.\"",
+      "violacao": "Revealing broker-specific positions in violation of confidentiality.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"If we coordinate with the syndicate lead to reduce supply artificially, we’ll drive the offering price higher.\"",
+      "violacao": "Artificially limiting supply to manipulate offering price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I can tell you the exact strike price we’re aiming for on this convertible bond. Don’t let others know.\"",
+      "violacao": "Sharing internal strike price target information.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"By withholding some negative data about the issuer, we can get a better price from investors.\"",
+      "violacao": "Omitting material information to manipulate offering outcomes.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We got news from a major client that they’re about to pull out. You might want to short their positions.\"",
+      "violacao": "Disclosing another client’s withdrawal plans for personal gain.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"If we release half the orders now and the rest near closing, we can stabilize the price above our target.\"",
+      "violacao": "Staggering order release to manipulate closing price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We’ll share with you the entire order pipeline if you agree to place a large buy order to support the price.\"",
+      "violacao": "Trading confidential pipeline data for price support.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s keep the model adjustment secret except for our top-tier clients who’ll act first.\"",
+      "violacao": "Selective disclosure of internal model adjustments to certain clients.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I'm sending you a file with all the individual allocations so you can see who’s buying how much.\"",
+      "violacao": "Sharing individualized allocation data with an investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let's suggest to the issuer to revise upward based on preliminary orders we haven't disclosed yet.\"",
+      "violacao": "Advising issuer to change pricing using undisclosed order info.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We plan to alter the pricing formula next week, but if you get in early, I can help you secure a discount.\"",
+      "violacao": "Offering an early advantage based on internal pricing formula changes.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Coordinate with the trader to spoof the order book, faking high demand. That should push the price up.\"",
+      "violacao": "Spoofing the order book to manipulate market perception.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We'll leak you the breakdown of how many shares each investor gets in this offering. Use it to strategize your positions.\"",
+      "violacao": "Leaking allocation details to a single investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Remind our top client that if they increase their bid, we'll confirm the exact number of shares we’ll allocate to them.\"",
+      "violacao": "Tying allocation details to an investor’s increased bid for advantage.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"The pricing committee is leaning toward a higher rate. Act now to lock in a lower price before it's public.\"",
+      "violacao": "Revealing internal committee decision on rates ahead of official announcement.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We want the stock to close above $10. Let’s batch all large buy orders together near the closing bell.\"",
+      "violacao": "Artificially inflating closing price by strategic order batching.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ll keep you informed about the stop-loss levels we see on our system so you can trigger them for profit.\"",
+      "violacao": "Sharing confidential stop-loss information to manipulate trades.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let’s advise the issuer to under-disclose certain liabilities so we can get a better issue price.\"",
+      "violacao": "Suggesting the issuer hide important financial data for pricing advantage.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"One of our biggest clients just signaled they’ll dump half their portfolio. Sell now to avoid the crash.\"",
+      "violacao": "Revealing a client’s confidential plan to another investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"If we hint to a few key clients that demand is 2x oversubscribed, it might become self-fulfilling.\"",
+      "violacao": "Encouraging clients to buy based on inflated demand figures.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ll give you real-time updates on every large trade order we execute, so you can adjust your positions instantly.\"",
+      "violacao": "Providing real-time confidential trade execution data to an investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let's push the analyst team to announce a favorable rating before we unload our positions.\"",
+      "violacao": "Manipulating analyst rating timing to benefit the bank’s positions.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We have exclusive info that the pool model is going to shift next week. Buy in now and thank me later.\"",
+      "violacao": "Passing along exclusive, non-public model adjustment information.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We can coordinate with Sales to subtly steer investors to bid higher. That’ll push up overall pricing.\"",
+      "violacao": "Colluding to manipulate investor bids and thus the final price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our special client wants to sell 100k shares tomorrow. Shorting now could be lucrative for you.\"",
+      "violacao": "Disclosing a large client’s upcoming sell order for personal investor gain.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"If we ramp up the stock price artificially today, the issuer might be more lenient with us tomorrow.\"",
+      "violacao": "Manipulating the stock price to gain favor with the issuer.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ll share how each major institution is bidding in the upcoming auction. Use it to outbid them.\"",
+      "violacao": "Offering institution-specific bidding intel to an investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let's adjust the official market commentary to make it sound more bullish, so the stock rallies for our internal positions.\"",
+      "violacao": "Misrepresenting market commentary to boost internal positions.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I know the model shift is confidential, but I’ll share it with you if you commit to a big buy.\"",
+      "violacao": "Selling inside model information in exchange for a large order.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"If we want a better rating from the issuer, let's ensure their biggest shareholders get preferential fills.\"",
+      "violacao": "Offering preferential treatment to issuer’s key shareholders.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Here’s the real-time data on all buy orders for this bond. You can position ahead of them.\"",
+      "violacao": "Sharing real-time confidential buy orders with an external investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We should quietly pass the issuer some negative competitor data so they discourage trading in that name, boosting ours.\"",
+      "violacao": "Manipulating issuer’s perception to steer market away from competitors.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our internal forecast says the price will spike on Monday. If you buy big now, you can ride the wave.\"",
+      "violacao": "Sharing non-public internal forecasts to guide an investor’s trade.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Delay confirming that large sell order until we see if we can push the price up first.\"",
+      "violacao": "Delaying a sell order to manipulate price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ll show you the entire pipeline of upcoming institutional flows in the secondary market if you keep trading through us.\"",
+      "violacao": "Exchanging confidential flow information for continued business.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let's feed the media a slightly inflated number for our expected demand to stir up excitement.\"",
+      "violacao": "Providing misleading demand figures to influence the market.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"The CFO privately told us they're slashing dividends. Sell now before the official announcement.\"",
+      "violacao": "Passing along material non-public info about dividend cuts.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Suggest to key investors that if they overbid, we’ll compensate them with extra allocations in another deal.\"",
+      "violacao": "Cross-deal allocation manipulation for certain investors’ benefit.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We’re artificially keeping the bond spread low until we have enough buyers. If you hurry, you’ll benefit from this.\"",
+      "violacao": "Admitting to artificially controlling the bond spread and offering an investor advantage.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We can't let the market see that big sell order. Hide it until the new buyer's locked in.\"",
+      "violacao": "Concealing a large sell order to manipulate the perceived market flow.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ve got privileged details on each market participant's order size in tomorrow’s auction. Use it wisely.\"",
+      "violacao": "Revealing each participant’s order size in an auction.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"If we show a fake surge of bids early on, investors might rush in at higher prices.\"",
+      "violacao": "Creating a false impression of strong demand to push prices up.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We’re about to mark up the price on this thinly traded bond. If you buy before we do, you can profit.\"",
+      "violacao": "Providing a heads-up about an upcoming price markup for personal investor benefit.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let’s move some internal trades around to simulate strong demand in the morning session.\"",
+      "violacao": "Staging internal trades to create an illusion of demand.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We know the other bank's clients placed a big short. If you counter it now, you'll corner them.\"",
+      "violacao": "Disclosing another bank's confidential client strategy.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let's ensure our special client gets the exact pricing model so they can plan their strategy. Others don't need it.\"",
+      "violacao": "Giving privileged access to internal pricing model details.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our desk is adjusting the risk model on Monday, which should raise valuations. Go long now.\"",
+      "violacao": "Sharing inside knowledge of future risk model changes for investor gain.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We have to talk the issuer into pulling some negative disclosures from the final prospectus to keep the price high.\"",
+      "violacao": "Encouraging issuer to hide negative information for price advantage.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"The big clients are set to rebalance next week, expecting a drop in this stock. It's best to short now.\"",
+      "violacao": "Informing one investor of other clients' rebalance plans.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Ask the quantitative team for their formula update, then share it only with our top commission payers.\"",
+      "violacao": "Unfairly providing internal quant formula updates to select clients.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We have non-public data indicating the next bond auction is undersubscribed. You can push the yield higher by lowballing.\"",
+      "violacao": "Sharing non-public auction subscription levels to let an investor manipulate yield.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"If we nudge the price up artificially today, we can book better profits on our internal inventory.\"",
+      "violacao": "Manipulating market price to enhance internal profits.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I'm only telling you: the institution next door is planning to launch a hostile bid. Buy shares now.\"",
+      "violacao": "Disclosing a confidential potential hostile bid to an investor for gain.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Forward the issuer's entire investor list to me so I can share it with our hedge fund partner.\"",
+      "violacao": "Sharing an issuer’s confidential investor list externally.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We’re planning to revise our official forecast upward tomorrow. Buy calls now; you’ll profit.\"",
+      "violacao": "Revealing upcoming revision of an official forecast for personal investor gain.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Hide the real trade flow data so we can keep the market in the dark until our internal positions are set.\"",
+      "violacao": "Withholding accurate trade flow data to manipulate market perceptions.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We’ve just bumped our internal fair value. You won’t see it publicly yet, so buy now.\"",
+      "violacao": "Sharing internal fair value adjustment before public release.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"If we pass certain negative news about a rival issuer to select clients, they might shift their funds to our offering.\"",
+      "violacao": "Disseminating negative information about a competitor for personal gain.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Here's the confidential breakdown of each participant’s order sizes in the new equity offering. Don’t share this.\"",
+      "violacao": "Divulging participant-specific order sizes in an offering.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We should coach the issuer to release overly optimistic revenue projections so we can price the issuance higher.\"",
+      "violacao": "Encouraging issuer to inflate projections for better pricing.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"You’ll be the first to know the exact final pricing tomorrow. Make sure you double your position now.\"",
+      "violacao": "Promising final pricing information in advance for personal gain.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let's run a quick check on the upcoming secondary market orders and pass the data to our top investor before trades settle.\"",
+      "violacao": "Providing settlement-level secondary market order data to a favored investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We can artificially inflate the offer’s subscription if you commit to a large order, then we’ll announce oversubscription.\"",
+      "violacao": "Orchestrating false oversubscription by colluding with an investor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Tell the traders not to process any significant sells until we've secured enough buyers at the higher price.\"",
+      "violacao": "Deliberate delay of sell orders to maintain an inflated price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I'm breaking protocol here, but the official announcement on the bond yield is next Wednesday. Position yourself beforehand.\"",
+      "violacao": "Revealing the exact date of a yield announcement for investor advantage.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let's communicate a false sense of high demand to the issuer, so they price the bond higher, benefiting our own holdings.\"",
+      "violacao": "Misleading the issuer about demand to manipulate bond pricing.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Don’t tell anyone, but we’re about to adjust the benchmark rate in our internal model, which will boost your position.\"",
+      "violacao": "Conveying internal benchmark rate adjustments to a single investor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"If we slow down reporting of trades, the market might think there's low liquidity and push the price up.\"",
+      "violacao": "Artificially restricting trade reporting for price impact.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I saw major sell orders queued for tomorrow. If you dump your shares today, you can beat the drop.\"",
+      "violacao": "Sharing confidential knowledge of forthcoming sell orders.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"We can hint that the issuer might be acquired soon, even if it's not certain, to inflate the share price.\"",
+      "violacao": "Spreading unconfirmed acquisition rumors to boost share price.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"If you promise to place a big order, I'll give you an inside look at how we plan to price next month’s REIT offering.\"",
+      "violacao": "Exchanging pricing information for a large order commitment.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Let's keep the analytics on the negative real demand hidden so we can justify a higher issuance price.\"",
+      "violacao": "Concealing true demand data to artificially justify a higher price.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We have privileged data showing the next wave of sell orders from smaller funds. Use it to set your short position.\"",
+      "violacao": "Leaking smaller funds’ planned sell orders to an investor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Ask the quant team to raise the internal rating. That’ll boost our clients’ appetite before the official rating is out.\"",
+      "violacao": "Requesting an internal rating boost to entice clients before official data is released.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We’re about to revise the cost of capital for this sector downward. Buy in advance of the announcement.\"",
+      "violacao": "Revealing an upcoming revision of cost of capital for personal investor gain.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"Withhold the final batch of orders so we can control the final listing price during the auction.\"",
+      "violacao": "Manipulating final listing price by withholding orders.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I'm giving you advanced knowledge of the new credit spread calculations. It's our little secret.\"",
+      "violacao": "Providing advanced notice of new credit spread calculations to one investor.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let’s not tell compliance, but we’ll funnel the big client's limit orders to our partner fund first.\"",
+      "violacao": "Routing client limit orders to a partner fund for advantage without compliance oversight.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"We decided internally to adjust the interest rate assumptions next quarter. If you invest now, you’ll lock in a better yield.\"",
+      "violacao": "Disclosing internal future interest rate assumptions for investor gain.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"If we artificially raise demand stats in our marketing, the market will perceive this as high interest, driving the price up.\"",
+      "violacao": "Misrepresenting demand to artificially boost perceived interest.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ll send you the precise model adjustments for each asset class before we share it with anyone else.\"",
+      "violacao": "Providing exclusive details of model adjustments prematurely.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Recommend the issuer hold back some negative news until after we've completed the placement so we can secure a higher price.\"",
+      "violacao": "Timing disclosure of negative news for higher placement price.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I've compiled the top 10 clients’ next moves. Make sure you stay ahead of them in tomorrow’s trades.\"",
+      "violacao": "Listing top clients’ planned moves for an investor’s advantage.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We’ll provide a fake bullish outlook to certain press outlets so that new investors buy in at higher prices.\"",
+      "violacao": "Feeding false bullish information to media for price manipulation.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"Our internal desk told me they plan to push the share price above $15 tomorrow. You might want to buy at the open.\"",
+      "violacao": "Conveying the desk’s plan to artificially push share price for personal investor gain.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let’s steer key institutional clients to buy heavily in the first hour, then stop them from selling so the price stays high.\"",
+      "violacao": "Coordinating buy and hold strategies among select clients to maintain high prices.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I’ll send you the breakdown of each large order in the secondary market for the upcoming issue. You can base your bids on that.\"",
+      "violacao": "Sharing confidential large-order breakdown in a secondary market.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Employee A → Employee B] \"We can instruct the custodian to delay certain sells so the daily volume appears bullish.\"",
+      "violacao": "Manipulating perceived volume by delaying sell orders.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I can forward you the internal memo on how we're setting tomorrow's opening prices. Just don't tell anyone.\"",
+      "violacao": "Disclosing internal memo detailing tomorrow’s opening price strategy.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Employee B → Employee A] \"Let’s overstate the projected earnings in our pre-release to entice bigger investor participation.\"",
+      "violacao": "Overstating projected earnings to attract investors artificially.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Employee → Investor] \"I've got the real-time feed of pending trades. I'll share it with you in exchange for an increase in your order.\"",
+      "violacao": "Selling real-time pending trade feed for a larger order commitment.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    }
+  ]
+}
