@@ -1,0 +1,1502 @@
+{
+  "mensagens_nao_violacao_portugues": [
+    {
+      "mensagem": "Bom dia, preciso apenas verificar seus dados cadastrais para prosseguir com a abertura da conta.",
+      "nao_violacao": "Nenhuma informação confidencial de terceiros foi compartilhada.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Poderia me confirmar se o seu endereço residencial permanece o mesmo para mantermos o cadastro atualizado?",
+      "nao_violacao": "A conversa limita-se à verificação de dados do próprio cliente.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Precisamos checar o seu perfil de investidor para garantir a adequação dos produtos, sem expor detalhes a outros setores.",
+      "nao_violacao": "Não há repasse de informação de terceiros nem individualização de ordens.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "As informações sobre sua conta ficarão restritas à equipe responsável pelo seu atendimento.",
+      "nao_violacao": "Há garantia de uso interno das informações, em base de necessidade.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Somente o setor de conformidade e o seu gerente pessoal terão acesso aos detalhes do seu histórico de transações.",
+      "nao_violacao": "Mantém-se o princípio de necessidade de conhecimento.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Para efetuar a análise de crédito, compartilharemos seus dados apenas com o setor competente.",
+      "nao_violacao": "Uso de dados estritamente no âmbito necessário, sem divulgação indevida.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Peço autorização para encaminhar seus documentos ao setor de análise, garantindo total confidencialidade.",
+      "nao_violacao": "O cliente é informado, e o envio é limitado a quem precisa analisar.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Apenas a equipe de suporte técnico terá acesso a seus dados para resolver o problema na plataforma.",
+      "nao_violacao": "Não há compartilhamento fora da equipe responsável.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Vamos discutir apenas os dados necessários para aprovar sua nova aplicação. Qualquer outra informação permanece sob sigilo.",
+      "nao_violacao": "O diálogo restringe informações ao essencial para a operação.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Confirme se podemos compartilhar exclusivamente seus dados cadastrais com a área de compliance para cumprir exigências regulatórias.",
+      "nao_violacao": "Há autorização do cliente e compartilhamento somente para área autorizada.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Este relatório tem informações agregadas, não há menção a ordens individuais de nenhum cliente.",
+      "nao_violacao": "Não expõe informações individualizadas de investidores.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Os documentos que você nos enviou serão mantidos em nosso repositório seguro, acessível somente a departamentos responsáveis.",
+      "nao_violacao": "Protege-se o conteúdo e não se compartilha com terceiros desnecessários.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Para finalizar seu cadastro, precisamos confirmar suas informações de renda, mantendo-as sob total sigilo.",
+      "nao_violacao": "As informações ficam restritas e não são divulgadas a outras partes.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "A equipe de TI foi notificada apenas dos dados técnicos para resolver o bug, sem acesso a detalhes das transações.",
+      "nao_violacao": "Compartilhamento limitado ao estritamente necessário.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Seu extrato será analisado somente pelo departamento de auditoria interna, que tem acesso autorizado.",
+      "nao_violacao": "Informações sensíveis permanecem dentro do grupo autorizado.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Para a oferta deste produto, não precisamos compartilhar nenhum dado sobre suas operações anteriores.",
+      "nao_violacao": "Nada individualizado foi exposto.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O sistema de custódia é acessado apenas pelos responsáveis pela liquidação, sem acesso às suas informações pessoais.",
+      "nao_violacao": "Não há exposição de dados sensíveis a áreas desnecessárias.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Seu gerente poderá ver apenas as aplicações de que ele cuida diretamente. Outras áreas não têm permissão de acesso.",
+      "nao_violacao": "Respeita-se o critério de need-to-know.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Cada equipe tem acesso segmentado aos dados para evitar vazamento de informações entre áreas não envolvidas.",
+      "nao_violacao": "A compartimentação de informações garante confidencialidade.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Podemos avançar no seu processo de investimento sem divulgar a nenhum outro cliente seus dados financeiros.",
+      "nao_violacao": "Não se compartilha informações do cliente com terceiros externos.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O relatório de performance é feito de forma agregada, sem revelar sua posição específica.",
+      "nao_violacao": "Nenhuma posição individual é identificada.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Precisamos do seu consentimento para compartilhar suas informações com a instituição parceira, apenas para viabilizar sua solicitação.",
+      "nao_violacao": "Obtém-se consentimento prévio e direciona-se a quem necessita das informações.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Seu histórico de transações é acessível apenas para o departamento de análise de riscos, conforme a política de privacidade.",
+      "nao_violacao": "Não se compartilha com áreas não autorizadas.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Confirmamos que não divulgaremos detalhes sobre as posições de nenhum cliente ao público externo.",
+      "nao_violacao": "Preserva-se total sigilo das posições individuais.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Vamos usar apenas dados estatísticos e não individualizados para apresentar tendências de investimentos.",
+      "nao_violacao": "Mantém-se dados gerais, sem expor clientes específicos.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Sua solicitação de saque será processada internamente, sem que nenhum terceiro tenha acesso às suas informações bancárias.",
+      "nao_violacao": "Somente o setor responsável processará o pedido.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "A transferência de valores será feita via canal seguro, evitando expor detalhes da conta a outros funcionários.",
+      "nao_violacao": "Garante-se segurança de dados e sigilo da conta.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Esta informação sobre saldo é apenas para sua verificação. Não a compartilharemos com nenhum outro cliente.",
+      "nao_violacao": "Não há exposição de dados a terceiros.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O contrato de investimento será assinado digitalmente e ficará protegido nos arquivos internos.",
+      "nao_violacao": "Uso interno, sem divulgação a pessoas não autorizadas.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Vou encaminhar a planilha apenas ao time que precisa avaliar a viabilidade do seu pedido de crédito.",
+      "nao_violacao": "Compartilhamento restrito ao time que necessita das informações.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Não se preocupe, seu nome não será mencionado em nenhuma apresentação externa sobre nosso portfólio.",
+      "nao_violacao": "As informações permanecem anônimas para divulgação pública.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O responsável pelo compliance solicitará apenas dados pertinentes para checagem de conduta, sem expor detalhes a outros setores.",
+      "nao_violacao": "Mantém-se a confidencialidade em âmbito interno.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "A fim de analisar sua carteira, somente seu assessor terá acesso às transações que você realizou conosco.",
+      "nao_violacao": "Exposição limitada ao profissional designado.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O relatório de acompanhamento é compartilhado com você de forma individual, sem inclusão de dados de outros clientes.",
+      "nao_violacao": "Não há combinação de informações de vários clientes em documento único.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Seu histórico em renda variável será analisado apenas para fins de suitability, sem divulgação externa.",
+      "nao_violacao": "Assegura-se uso interno para avaliação de perfil.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "A auditoria interna está revisando apenas parâmetros gerais de conta, sem detalhar seu nome ou transações específicas para outros setores.",
+      "nao_violacao": "Uso restrito das informações, sem compartilhamento indevido.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Os analistas responsáveis têm acesso a dados anônimos para estudos, preservando a identidade dos clientes.",
+      "nao_violacao": "Informações anonimizadas não revelam detalhes pessoais.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Em relatórios públicos, exibimos apenas estatísticas agregadas de performance, sem revelar informações específicas de cada cliente.",
+      "nao_violacao": "Nenhum cliente é identificado individualmente.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O formulário de KYC será revisado apenas pela equipe de onboarding, garantindo que detalhes não sejam divulgados.",
+      "nao_violacao": "As informações ficam restritas ao procedimento específico.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "A verificação dos seus documentos será feita por um colaborador autorizado, que não compartilhará seus dados com terceiros.",
+      "nao_violacao": "Não envolve exposição a pessoas sem necessidade.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Ao apresentar produtos, não mencionaremos nomes de outros investidores nem detalhes de suas aplicações.",
+      "nao_violacao": "Não se expõe nenhuma informação de outros clientes.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Todos os e-mails com documentos sensíveis são encriptados e só podem ser abertos pela área responsável.",
+      "nao_violacao": "Uso de métodos de proteção garante confidencialidade.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Apenas o gerente que cuida da sua conta e eu discutiremos o seu perfil de risco, sem envolver outros times.",
+      "nao_violacao": "Mantém o fluxo de informação restrito e necessário.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O setor de suporte não terá acesso aos extratos dos clientes, apenas às funcionalidades do sistema.",
+      "nao_violacao": "Suporte não obtém dados além do necessário para manutenção do sistema.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Seu gerente questionou se você está satisfeito com o serviço, mas não discutiu detalhes da sua carteira comigo.",
+      "nao_violacao": "Nenhuma informação detalhada foi compartilhada entre funcionários sem necessidade.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Precisarei mostrar seu contrato à nossa assessoria jurídica, mas não divulgaremos suas ordens específicas.",
+      "nao_violacao": "A informação é compartilhada somente com o departamento jurídico, sem detalhes sensíveis.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Todos os dados dos clientes ficam em um servidor seguro, acessado somente por equipes autorizadas.",
+      "nao_violacao": "Não há acesso livre a informações individuais.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Ao conversar com o investidor, mantive seus dados restritos. Só informei o necessário para a execução da operação.",
+      "nao_violacao": "Preserva-se a confidencialidade, sem divulgar extras.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Nossa análise seguirá somente com os dados que você autorizou. Não repassaremos nada além disso.",
+      "nao_violacao": "Restringe-se o uso das informações conforme consentimento.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Para ajustar seu limite, consultaremos apenas o departamento responsável, sem exibir suas outras transações.",
+      "nao_violacao": "Somente a área de crédito acessa dados relevantes.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "O analista sênior precisará verificar seus últimos extratos, mas não terá acesso a informações de outros clientes.",
+      "nao_violacao": "Acesso segmentado e individualizado, respeitando sigilo.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "Confirmamos que nenhum dado relacionado às suas ordens será transmitido para ambientes que não precisam delas.",
+      "nao_violacao": "Mantém informação restrita à equipe de operações.",
+      "regra_nao_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+
+    {
+      "mensagem": "Gostaria de apresentar um panorama geral do mercado sem mencionar nenhum cliente ou ordem específica.",
+      "nao_violacao": "Informações de mercado são gerais, não relacionadas a ordens individuais.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Podemos fornecer uma visão agregada dos volumes negociados, sem detalhar de qual cliente se trata.",
+      "nao_violacao": "A informação compartilhada é genérica e não individualizada.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Apenas farei um comentário sobre a tendência setorial, sem revelar ordens específicas de nenhum cliente.",
+      "nao_violacao": "Mantém-se a abordagem de 'market color' sem dados individuais.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Discutiremos possíveis cenários macroeconômicos sem enviar informação que influencie diretamente o preço de um ativo.",
+      "nao_violacao": "Conteúdo geral, sem manipular ou afetar preços específicos.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Ao emissor, fornecemos apenas dados estatísticos de como o mercado reagiu, sem citar nenhuma transação particular.",
+      "nao_violacao": "Informações de tendência sem individualização de ordens.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Podemos falar sobre os níveis de interesse em geral, mas não divulgamos quem fez cada ordem específica.",
+      "nao_violacao": "Não há repasse de detalhes das ordens dos clientes.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Nossos relatórios diários apresentam tendências globais, sem expor dados confidenciais de investidores.",
+      "nao_violacao": "Informação genérica de mercado, sem individualizar posições.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Vamos atualizar apenas as estatísticas do pregão, sem mencionar ordens recebidas de clientes específicos.",
+      "nao_violacao": "A divulgação é estritamente de dados públicos agregados.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Podemos fornecer ao investidor uma previsão macroeconômica, sem detalhar posições de outros participantes.",
+      "nao_violacao": "Projeção sem violar confidencialidade de terceiros.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Não enviamos nenhuma informação que possa ser usada para influenciar o preço de forma indevida, apenas dados públicos.",
+      "nao_violacao": "Não há manipulação ou informação privilegiada.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Ao falar com o emissor, limitamo-nos a dizer que o mercado tem interesse moderado, sem detalhar nomes ou volumes específicos.",
+      "nao_violacao": "Uso de market color sem individualização de ordens.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Posso enviar um relatório setorial, mas não vou citar nenhuma transação recente de clientes individualmente.",
+      "nao_violacao": "Protege a privacidade das operações dos clientes.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "O boletim aos investidores terá apenas informações oficiais do mercado, sem insights sobre ordens específicas.",
+      "nao_violacao": "Divulgação de dados oficiais, não individualizados.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Fornecemos uma visão geral do fluxo de mercado, sem mencionar quais clientes entraram ou saíram de posições.",
+      "nao_violacao": "Mantém a confidencialidade de negociações individuais.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Os comentários enviados foram apenas sobre tendências de volatilidade, sem expor nenhum book de ofertas específico.",
+      "nao_violacao": "Não há menção a ordens ou clientes específicos.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Nossos relatórios de research estão disponíveis para todos, sem distinguir investidores e suas estratégias.",
+      "nao_violacao": "Conteúdo geral, sem favorecimento ou informação privilegiada.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Daremos apenas uma visão do cenário macro, sem oferecer nada que possa determinar movimentos de preço específicos.",
+      "nao_violacao": "Não influencia preços indevidamente, é apenas análise geral.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Podemos ressaltar que o setor de tecnologia está aquecido, mas sem mencionar ordens de compra ou venda em particular.",
+      "nao_violacao": "Evita divulgação de qualquer ordem recebida.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Sim, posso encaminhar uma visão global de performance do segmento, sem citar negociações específicas.",
+      "nao_violacao": "Não há detalhamento de clientes ou ordens.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Discutirei apenas dados históricos de preço e volume, já que são informações públicas.",
+      "nao_violacao": "Apenas dados de domínio público, sem nada confidencial.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Podemos falar sobre o movimento geral do índice, mas não daremos detalhes das ordens específicas que compõem o índice.",
+      "nao_violacao": "Mantém informações de mercado em nível agregado.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Não transmitirei nenhuma informação que possa mostrar a posição exata de um cliente no mercado.",
+      "nao_violacao": "Protege informações individualizadas de ordens.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "O relatório para os emissores cita apenas dados consolidados sobre a demanda, sem identificar investidores.",
+      "nao_violacao": "Mantém-se dados agregados, sem identificação de clientes.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Nossos alertas de mercado são genéricos e baseados em cotações públicas, não contêm orientações específicas para ninguém.",
+      "nao_violacao": "Não se personaliza informação que possa manipular preços ou expor clientes.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Quando divulgamos boletins, usamos linguagem neutra e não mencionamos tendências de ordens de um cliente em particular.",
+      "nao_violacao": "Cumpre a regra de não expor detalhes de ordens recebidas.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Podemos enviar estatísticas sobre o volume total do dia, sem revelar de onde vieram esses volumes.",
+      "nao_violacao": "Não se especifica a origem individual das negociações.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Mantemos uma política estrita de só comunicar ao mercado dados já disponibilizados publicamente pela Bolsa.",
+      "nao_violacao": "As informações não são exclusivas ou confidenciais.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Apresentamos ao investidor apenas cenários de performance de índices macro, sem citar operações concretas de clientes.",
+      "nao_violacao": "Mantém a visão macro, sem violar confidencialidade.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "A conversa com o analista externo foi somente sobre projeções econômicas gerais, sem qualquer menção a ordens específicas.",
+      "nao_violacao": "Não se transmite informação que possa influenciar preços individualmente.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Posso enviar um resumo da volatilidade média do dia, mas não compartilharei dados que identificam investidores.",
+      "nao_violacao": "Informações agregadas não violam a política.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "As atualizações no site são baseadas em relatórios públicos, sem qualquer informação privilegiada ou individualizada.",
+      "nao_violacao": "Não há vazamento de dados de clientes.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Durante a reunião com o emissor, forneci apenas um panorama amplo de como o mercado reagiu ao setor, sem citar investidores específicos.",
+      "nao_violacao": "Mantém informações de caráter geral.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "O documento que encaminhamos não inclui quaisquer detalhes que possam influenciar diretamente o pricing de nenhum ativo.",
+      "nao_violacao": "Evita influenciar preços e não traz dados individualizados.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "Nós nos restringimos a compartilhar com o investidor apenas projeções gerais de PIB e inflação.",
+      "nao_violacao": "Dados gerais, não vinculados a ordens específicas.",
+      "regra_nao_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+
+    {
+      "mensagem": "Recomendamos que o cliente avalie os riscos, sem sugerir qualquer ação que manipule preços de ativos.",
+      "nao_violacao": "Não há indução a comportamento que afete artificialmente o mercado.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Orientamos o investidor a seguir uma análise fundamentalista, sem manipular o volume de negociações.",
+      "nao_violacao": "Não se promove comportamento para alterar preços de forma indevida.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "A conversa com o colega de mesa foi apenas sobre a política interna de proteção ao investidor, sem discussões sobre influenciar preço.",
+      "nao_violacao": "Não há sugestão de manipulação ou estímulo a subir preços.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Ao falar de recompras de ações, reforçamos a necessidade de cumprir as regras de mercado, sem práticas artificiais.",
+      "nao_violacao": "Nenhuma prática para inflar ou deflacionar preços foi mencionada.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O funcionário explicou ao cliente que não poderia induzi-lo a aumentar o preço do ativo, pois seria ilegal.",
+      "nao_violacao": "Reafirma que estimular manipulação é proibido.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "A área de vendas apenas apresentou características do produto, sem sugerir qualquer ação para movimentar preço artificialmente.",
+      "nao_violacao": "Não há incentivo à manipulação de mercado.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O colaborador alertou o investidor a não efetuar ordens em grande volume para distorcer a cotação.",
+      "nao_violacao": "O alerta evita qualquer prática de manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Negociamos apenas condições de investimento legítimas, sem influenciar o mercado para benefício próprio.",
+      "nao_violacao": "Transações seguem a lisura de mercado.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Foi reforçado que a estratégia deve considerar oferta e demanda natural, sem intervenções artificiais.",
+      "nao_violacao": "Não se promove distorção ou manipulação de preços.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Não discutimos qualquer acordo para aumentar volume de forma não orgânica.",
+      "nao_violacao": "Não há conluio para manipular liquidez.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Confirmamos que não temos permissão para coordenar operações que visem inflar cotações.",
+      "nao_violacao": "Previne-se prática de manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O gestor interno ressaltou que qualquer sugestão de movimentar mercado de forma artificial é contra as normas.",
+      "nao_violacao": "Reforça a proibição de manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Durante a reunião, falamos apenas de estratégias legítimas de hedge, sem impacto artificial no preço.",
+      "nao_violacao": "Hedge legítimo não configura manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O funcionário deixou claro que não pode compartilhar nenhuma ideia de intervenção para subir preço artificialmente.",
+      "nao_violacao": "Bloqueia a possibilidade de manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Explicamos ao investidor que não temos autorização para indicar operações que visem alterar liquidez de forma não natural.",
+      "nao_violacao": "Impede sugestões que manipulem o mercado.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Todos os departamentos envolvidos seguem as regras de não influenciar preço ou volume de maneira intencional.",
+      "nao_violacao": "A instituição cumpre prevenção de práticas manipulativas.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Nenhum analista deu instruções para que investidores comprem em massa para movimentar o preço.",
+      "nao_violacao": "Não existe estímulo à manipulação de valores.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "A recomendação de venda foi baseada em fundamentos, e não como forma de derrubar cotação artificialmente.",
+      "nao_violacao": "A prática é legítima e segue avaliação honesta de mercado.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Em nenhum momento sugerimos ao cliente participar de operações casadas para alterar os preços das ações.",
+      "nao_violacao": "Não houve incentivo a condutas ilícitas.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Todo material de marketing esclarece que as decisões de compra e venda devem ser livres de manipulação.",
+      "nao_violacao": "Reflete a política de não manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O compliance confirma que não houve sugestão de remarcar preços ou orientar clientes a fazer isso.",
+      "nao_violacao": "Verificação interna impede práticas ilícitas.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Não discutimos qualquer ajuste de modelo que resultasse em mudança arbitrária de preços de pools.",
+      "nao_violacao": "Não compartilhou mensagens sobre pricing indevido.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O colaborador disse ao cliente que a decisão de investimento deve ser baseada em dados fundamentalistas e não em boatos para inflar preços.",
+      "nao_violacao": "Orienta comportamento legítimo, sem manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Em treinamento, ressaltamos que qualquer tentativa de manipular cotações é ilegal e contrária à política da empresa.",
+      "nao_violacao": "Treinamento reforça conduta ética.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Ao abordar estratégias de investimento, não sugerimos que se crie demanda artificial para subir o preço de um ativo.",
+      "nao_violacao": "Não há incentivo de práticas que afetem artificialmente o mercado.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Apenas informamos ao cliente que as variações de mercado são naturais e não devem ser induzidas por operações coordenadas.",
+      "nao_violacao": "Não há menção a manipulação ou coordenação artificial.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O funcionário não fez comentários sobre ações para pressionar a cotação do papel para cima ou para baixo.",
+      "nao_violacao": "Ausência de qualquer incentivo a manipular.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "A decisão de recomendar venda foi pautada em relatório econômico imparcial, sem intuito de manipular a cotação.",
+      "nao_violacao": "A recomendação é baseada em análise objetiva.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Qualquer coordenação de trades para influenciar preços é estritamente proibida, conforme explicado ao cliente.",
+      "nao_violacao": "Fica claro que não se pode praticar manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "O setor de derivativos só fornece hedge legítimo, não promovendo estratégias de falsificação de liquidez.",
+      "nao_violacao": "As estratégias são legítimas e regulamentadas.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Sempre orientamos clientes a não praticarem spoofing ou layering em suas ordens.",
+      "nao_violacao": "Conduta reforça a prevenção de táticas de manipulação.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Não posso comentar qualquer ajuste de modelo de precificação com terceiros, pois é restrito ao time autorizado.",
+      "nao_violacao": "Evita compartilhamento indevido de informações sobre pricing.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Deixei claro que não fornecemos instruções para inflar preços antes de uma oferta subsequente.",
+      "nao_violacao": "Proíbe conduta de manipulação pré-oferta.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "Em calls internas, nunca discutimos métodos de aumentar artificialmente a cotação do papel no mercado.",
+      "nao_violacao": "Sem incentivo de práticas manipulativas.",
+      "regra_nao_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+
+    {
+      "mensagem": "Não compartilhamos nenhum detalhe de estratégia que pudesse dar vantagem para um investidor em detrimento de outro.",
+      "nao_violacao": "Evita conflito de interesse, mantendo igualdade de tratamento.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Ao falar com o emissor, mantivemos uma postura neutra, sem privilegiar um investidor específico.",
+      "nao_violacao": "Não há sugestão de benefício exclusivo a um grupo.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O colaborador deixou claro que não pode oferecer condições especiais fora das aprovadas pela política do banco.",
+      "nao_violacao": "Não gera favorecimento indevido.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "As decisões de preço são tomadas de forma colegiada, sem revelar a estratégia interna do banco a nenhum cliente.",
+      "nao_violacao": "Não expõe informações internas de precificação.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Nunca indicamos ações estratégicas que só beneficiariam um investidor em específico, pois isso é contra as normas.",
+      "nao_violacao": "Assegura igualdade de tratamento aos investidores.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Durante a reunião, o colaborador não divulgou a posição do banco em relação àquele ativo, mantendo neutralidade.",
+      "nao_violacao": "Não se compartilha a estratégia interna do banco.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O funcionário evitou discutir detalhes da estratégia do banco na precificação, respeitando a política de conflito de interesses.",
+      "nao_violacao": "Não há repasse de informações privilegiadas.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Ao alocar ativos, seguimos critérios objetivos e públicos, sem concessões especiais para clientes específicos.",
+      "nao_violacao": "Não há violação de imparcialidade.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Não existe canal preferencial para atendimento de um investidor que traga vantagem injusta sobre os demais.",
+      "nao_violacao": "Garantia de igualdade no tratamento e atendimento.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Ao discutir o book de ofertas, o analista não compartilhou como o banco planeja posicionar suas próprias ordens.",
+      "nao_violacao": "Evita conflito, não expondo a estratégia interna.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O cliente foi orientado sobre condições de mercado gerais, sem qualquer direcionamento que beneficie um participante em detrimento de outro.",
+      "nao_violacao": "Não há sugestão de decisões estratégicas privilegiadas.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Nenhum detalhe sobre a política de alocação interna foi revelado ao investidor, garantindo imparcialidade.",
+      "nao_violacao": "Protege informações estratégicas do banco.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Não foram divulgados critérios internos de precificação que pudessem privilegiar determinado cliente.",
+      "nao_violacao": "Mantém-se a confidencialidade dos processos internos.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O colaborador lembrou que decisões de alocação devem seguir a política oficial, sem acordos paralelos.",
+      "nao_violacao": "Evita favorecer clientes de forma arbitrária.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Quando questionado sobre como o banco se posicionará, o funcionário informou que não pode divulgar a estratégia.",
+      "nao_violacao": "Garante sigilo da estratégia interna e evita conflito.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Não é possível ajustar o spread individualmente para um cliente sem aprovação em comitê, evitando conflitos.",
+      "nao_violacao": "Procedimento padronizado impede tratamento privilegiado.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "A equipe não revelou ao emissor detalhes do cronograma de precificação do banco.",
+      "nao_violacao": "Protege dados internos de estratégia.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Ressaltamos que o comitê de investimentos define as taxas de forma transparente e igual para todos os clientes.",
+      "nao_violacao": "Não há distinção individual privilegiada.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Para aprovar essa operação, seguimos o protocolo padrão, sem revelar informações internas de modelagem de risco.",
+      "nao_violacao": "Não se expõe estratégia ou decisão interna que possa favorecer clientes.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "A proposta comercial não incluiu detalhes que pudessem criar conflito de interesses entre o banco e o cliente.",
+      "nao_violacao": "Mantém-se neutra a relação com o investidor.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O analista não deu sugestões de estratégias que beneficiariam apenas uma parte em detrimento de outras.",
+      "nao_violacao": "Mantém-se a imparcialidade nas sugestões.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Quando pediram detalhes sobre a intenção de venda do banco, não fornecemos, pois isso é informação interna.",
+      "nao_violacao": "Não se expõe a posição do banco, evitando conflitos.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "A precificação do novo ativo foi feita pelo comitê, sem envolvimento direto de áreas que poderiam ter interesse específico.",
+      "nao_violacao": "Estrutura separada para evitar conflito.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Ao sugerir esse fundo, o gestor não usou informação interna sobre outra negociação do banco.",
+      "nao_violacao": "Uso de dados públicos, não privilegiados.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Não faremos nenhuma recomendação que coincida com interesses exclusivos do banco se for prejudicial ao cliente.",
+      "nao_violacao": "Protege o cliente e evita conflitos.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Ficou claro que a equipe de análise deve manter independência, não favorecendo interesses de outros departamentos.",
+      "nao_violacao": "Segregação de funções para evitar conflito.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Nenhuma informação sobre a posição do banco em ofertas públicas foi compartilhada com investidores externos.",
+      "nao_violacao": "Preserva informações internas confidenciais.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Ao atender dois clientes interessados no mesmo produto, garantimos o mesmo nível de transparência para ambos.",
+      "nao_violacao": "Evita privilégio de informações para algum lado.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O comitê independente avaliou o preço de emissão, sem envolver áreas com interesse direto nas ações.",
+      "nao_violacao": "Não há influência de partes interessadas na precificação.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Não oferecemos nenhum tipo de desconto especial não autorizado para atrair investimento individualmente.",
+      "nao_violacao": "Mantém igualdade de condições para todos os investidores.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O funcionário não deu nenhuma dica interna sobre timing de mercado para clientes preferenciais.",
+      "nao_violacao": "Garante não privilegiar alguns em detrimento de outros.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Apenas comuniquei ao cliente as informações oficiais do prospecto, sem revelar nossos estudos internos de precificação.",
+      "nao_violacao": "Não se repassa estratégia do banco.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Na hora de definir a alocação, usamos critérios previamente estabelecidos, sem improvisar para favorecer alguém.",
+      "nao_violacao": "Transparência nos critérios de alocação evita conflito.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "As reuniões com a área de vendas são separadas das discussões do comitê de preço, evitando troca de informações privilegiadas.",
+      "nao_violacao": "Estrutura de governança impede conflito de interesses.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "O cliente solicitou informações adicionais sobre nossa estratégia, mas explicamos que não podemos compartilhar decisões internas.",
+      "nao_violacao": "Protege dados estratégicos do banco.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Deixamos claro que não anteciparemos nenhum benefício extra sem passar pelos processos de aprovação adequados.",
+      "nao_violacao": "Evita concessões indevidas fora de processo oficial.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "Esclarecemos ao investidor que a decisão final de precificação vem de um colegiado, sem influência individual.",
+      "nao_violacao": "Protege contra decisões unilaterais que possam criar conflito.",
+      "regra_nao_infringida": "4. Conflito de Interesses"
+    }
+  ],
+  "mensagens_nao_violacao_ingles": [
+    {
+      "message": "Good morning, I just need to verify your registration details to proceed with the account opening.",
+      "no_violation": "No third-party confidential information was disclosed.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Could you confirm if your residential address is still the same so we can keep your records up to date?",
+      "no_violation": "The conversation is limited to verifying the client's own data.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We need to check your investor profile to ensure product suitability, without exposing details to other departments.",
+      "no_violation": "No third-party data or individualized orders are disclosed.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your account information will remain restricted to the team that handles your specific needs.",
+      "no_violation": "Information is used internally on a need-to-know basis.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Only the compliance team and your personal manager will have access to your transaction details.",
+      "no_violation": "Maintains the need-to-know principle.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "To conduct a credit analysis, your data will only be shared with the department in charge.",
+      "no_violation": "Data usage is strictly within the necessary scope.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "I need your authorization to forward your documents to the analysis department, ensuring full confidentiality.",
+      "no_violation": "Client is informed, and documents go only to the relevant team.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Only the technical support team will have access to specific technical data to solve the platform issue.",
+      "no_violation": "No disclosure beyond the responsible department.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We'll only discuss the essential data needed to approve your new investment, keeping all other info private.",
+      "no_violation": "The conversation limits information to what’s necessary.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Please confirm we can share only your registration details with the compliance area to meet regulatory requirements.",
+      "no_violation": "Client consent is requested and sharing is limited to an authorized area.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "This report provides aggregated information; no individual client orders are mentioned.",
+      "no_violation": "No individualized investor data is revealed.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The documents you sent will be stored in our secure repository, accessible only by authorized departments.",
+      "no_violation": "Data is protected and not shared with unnecessary parties.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "To finalize your registration, we need to confirm your income details, keeping them strictly confidential.",
+      "no_violation": "Information remains restricted and is not disclosed to others.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The IT team was informed only of technical details to fix the bug, with no access to transaction records.",
+      "no_violation": "Sharing is limited to relevant troubleshooting information.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your statement will be reviewed only by the internal audit department, which is duly authorized.",
+      "no_violation": "Sensitive info remains within the authorized group.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "To offer this product, we do not need to share any data about your previous trades.",
+      "no_violation": "No individualized information is exposed.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The custody system is accessed only by those responsible for settlement, without seeing your personal data.",
+      "no_violation": "No sensitive data is shown to non-essential areas.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your manager can only see the investments he directly handles. Other departments are not authorized.",
+      "no_violation": "Adheres to the need-to-know principle.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Each team has segmented access to data, preventing the transfer of confidential info to unrelated units.",
+      "no_violation": "Information compartmentalization ensures confidentiality.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We can proceed with your investment process without disclosing your financial data to any other customer.",
+      "no_violation": "Client’s information is not shared externally.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Performance reports are presented in aggregate form, without revealing your specific position.",
+      "no_violation": "No individual position is identified.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We need your consent to share your information with our partner institution only to enable your request.",
+      "no_violation": "Prior consent is obtained, and sharing is done only for necessary purposes.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your transaction history is accessible solely by the risk analysis department, as per privacy policy.",
+      "no_violation": "No sharing with unauthorized sectors.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We confirm we will not disclose any details about clients’ positions to the external public.",
+      "no_violation": "Protects individual client positions from public view.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We will use only non-individualized data to present investment trends.",
+      "no_violation": "Keeps the data general, without exposing specific clients.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your withdrawal request will be handled internally, with no third party seeing your banking information.",
+      "no_violation": "Only the relevant department processes the request.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The money transfer will be done through a secure channel, preventing unauthorized staff from seeing account details.",
+      "no_violation": "Ensures data security and account secrecy.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "This balance information is for your verification only and will not be shared with any other client.",
+      "no_violation": "No exposure of data to unrelated third parties.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The investment contract will be signed digitally and stored in our internal files.",
+      "no_violation": "Used internally, not disclosed to unauthorized individuals.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "I’ll send the spreadsheet only to the team who needs to assess your credit request.",
+      "no_violation": "Sharing is restricted to the necessary team.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Don’t worry, your name won’t be mentioned in any external presentation about our portfolio.",
+      "no_violation": "Client information remains anonymous for public disclosure.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The compliance officer will request only the relevant data for conduct checks, without exposing details to other departments.",
+      "no_violation": "Maintains internal confidentiality standards.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your advisor will have access only to the trades you’ve carried out with us to analyze your portfolio.",
+      "no_violation": "Exposure is limited to the assigned professional.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your performance report is shared with you personally, without including other clients’ data.",
+      "no_violation": "No combined data from multiple clients in one document.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your equity history will be reviewed only for suitability purposes, with no external disclosure.",
+      "no_violation": "Ensures internal use for profile assessment.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The internal audit is reviewing general account parameters, without detailing names or specific transactions to other teams.",
+      "no_violation": "Limited internal usage prevents undue sharing.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Senior analysts only have access to anonymized data for research, preserving client identities.",
+      "no_violation": "Anonymized information does not reveal personal details.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Our public reports display only aggregated performance statistics, without individual client data.",
+      "no_violation": "No client is identified individually.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The KYC form will be processed only by the onboarding team, ensuring no details are disclosed further.",
+      "no_violation": "Information remains strictly within the specific procedure.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "A qualified staff member will verify your documents, never sharing them with unnecessary third parties.",
+      "no_violation": "No involvement of individuals without a direct need.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "When presenting products, we won’t mention any names of other investors nor details of their investments.",
+      "no_violation": "No disclosure of other clients’ information.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "All emails containing sensitive documents are encrypted and can only be opened by the responsible area.",
+      "no_violation": "Security measures ensure confidentiality.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Only your account manager and I will discuss your risk profile, without involving other teams.",
+      "no_violation": "Information flow remains limited and necessary.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The support team has no access to client statements, only to system functionalities.",
+      "no_violation": "Support obtains no data beyond what's necessary for system maintenance.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "Your manager asked if you’re satisfied with the service but did not share any details of your portfolio with me.",
+      "no_violation": "No detailed information was exchanged between staff without need.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "I’ll show your contract to our legal counsel only, without disclosing specific orders.",
+      "no_violation": "Information is shared solely with the legal department, omitting sensitive details.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "All client data is kept on a secure server accessed only by authorized teams.",
+      "no_violation": "No free access to individualized information.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "When I spoke to the investor, I kept his data restricted and only shared what was necessary to complete the operation.",
+      "no_violation": "Confidentiality is preserved, with no extra disclosures.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We will only use the data you authorized for analysis. Nothing beyond that will be disclosed.",
+      "no_violation": "Information usage respects client’s consent.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "To adjust your limit, we’ll consult only the credit department, without displaying your other transactions.",
+      "no_violation": "Only the credit area sees relevant data.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "The senior analyst will review your past statements, but he has no access to other clients’ information.",
+      "no_violation": "Access is segmented and individual, respecting confidentiality.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "message": "We confirm that no details of your orders will be sent to any environments that do not require them.",
+      "no_violation": "Keeps order information limited to the operations team.",
+      "rule_not_infringed": "1. Confidentiality and Information Sharing"
+    },
+
+    {
+      "message": "I’d like to share a general market outlook without mentioning any client or specific order details.",
+      "no_violation": "Market information remains broad, with no individual order data.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We can provide an aggregated view of trading volumes without detailing which client is behind them.",
+      "no_violation": "Shared information is non-individualized and generic.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "I’ll only offer a sector trend overview, omitting specific orders from any client.",
+      "no_violation": "Maintains 'market color' without individual data.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We will discuss potential macroeconomic scenarios, not sending any info that could directly affect a particular asset’s price.",
+      "no_violation": "General content, no direct price manipulation.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "When speaking to the issuer, we only provided statistical data on market reactions, without referencing any single transaction.",
+      "no_violation": "Trend info without individual order detail.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We can talk about overall interest levels, but we won’t disclose who placed which specific order.",
+      "no_violation": "No revelation of clients’ orders.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "Our daily reports include global trends without revealing investors’ confidential information.",
+      "no_violation": "Market data is generic, not individualized.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We’ll only publish aggregated daily trading statistics, with no mention of received client orders.",
+      "no_violation": "Disclosure is strictly of public aggregated data.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We can give the investor a macroeconomic forecast, avoiding details about other participants’ positions.",
+      "no_violation": "Projections are shared without third-party data.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We don’t send any information that could be used to unduly influence an asset’s price, only public data.",
+      "no_violation": "No inside or manipulative details are shared.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "When talking to the issuer, we stated there is moderate market interest, without specific names or volume references.",
+      "no_violation": "Employing market color without order details.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "I can share an industry report but won’t mention any recent transactions by individual clients.",
+      "no_violation": "Preserves client transaction privacy.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "Our investor bulletin includes only official market information, with no insights into specific orders.",
+      "no_violation": "Discloses publicly available data, not individualized.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We provide a general view of market flows, without mentioning which clients entered or exited positions.",
+      "no_violation": "No disclosure of any single client’s trades.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "The updates we send only address overall volatility trends, with no details of a specific order book.",
+      "no_violation": "No mention of client-identified data.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "Our research reports are available to everyone, without distinguishing individual investors or their strategies.",
+      "no_violation": "General content, no privileged or individualized insight.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We only provide a macro market scenario, not offering anything that may steer specific price movements.",
+      "no_violation": "No attempt to influence prices unduly, just broad analysis.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We might highlight that the tech sector is booming, but not mention any particular buy or sell orders.",
+      "no_violation": "Avoids revealing any received orders.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "Yes, I can send a global performance overview of the segment, without referencing specific trades.",
+      "no_violation": "Doesn’t include clients’ order details.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We’ll only discuss historical price and volume data, as they are publicly available.",
+      "no_violation": "Only public domain data, no confidential info.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We can talk about general index moves, but we will not provide details of the specific orders that make up the index.",
+      "no_violation": "Market info is aggregated, no individual disclosures.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "No information that identifies a client’s position in the market will be transmitted.",
+      "no_violation": "Keeps individualized order data confidential.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "The report to issuers only includes consolidated demand data, with no investor identification.",
+      "no_violation": "Aggregated data shared, not revealing clients’ names.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "Our market alerts are generic and based on public quotes, containing no specific instructions for anyone.",
+      "no_violation": "No personalization that could manipulate prices or expose client details.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "When we release bulletins, we use neutral language and do not mention any single client’s order trends.",
+      "no_violation": "Compliance with the rule against disclosing received orders.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We can send daily total volume stats, but not disclose the origin of those volumes.",
+      "no_violation": "Does not specify individual sources of trades.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We have a strict policy of only sharing with the market data already made public by the Exchange.",
+      "no_violation": "No exclusive or confidential information is released.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We provide the client with macro-level index performance scenarios, avoiding any reference to specific orders.",
+      "no_violation": "Maintains a broad view, preserving confidentiality.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "In the conversation with the external analyst, we only discussed general economic projections, no mention of specific orders.",
+      "no_violation": "Does not transmit information that could manipulate prices individually.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "I can forward an average volatility summary for the day, but I won’t share data identifying investors.",
+      "no_violation": "Aggregated data does not violate the policy.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "Website updates are based on public reports, with no privileged or individualized information.",
+      "no_violation": "No client data leaks occur.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "During the meeting with the issuer, I only provided a broad overview of how the market reacted to the sector, without naming investors.",
+      "no_violation": "Delivers information of a general nature.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "The document we sent does not include any details that could directly affect the pricing of any asset.",
+      "no_violation": "Avoids influencing prices and excludes individualized data.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+    {
+      "message": "We limit ourselves to sharing general GDP and inflation projections with investors.",
+      "no_violation": "Broad data, not tied to specific orders.",
+      "rule_not_infringed": "2. Restrictions on Market Information Transmission"
+    },
+
+    {
+      "message": "We advise the client to evaluate risks without suggesting any action that manipulates asset prices.",
+      "no_violation": "No inducement to artificially affect the market.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "Our recommendation is based on fundamental analysis, not on inflating trading volumes in any way.",
+      "no_violation": "No promotion of behavior aimed at price distortion.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The conversation among coworkers was solely about internal investor protection policies, not about influencing prices.",
+      "no_violation": "No suggestion of market manipulation or price stimulation.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "When discussing share buybacks, we emphasized adherence to market rules without any artificial practices.",
+      "no_violation": "No mention of inflating or deflating prices artificially.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The employee told the client it would be illegal to push up the asset’s price intentionally.",
+      "no_violation": "Reiterates that encouraging manipulation is prohibited.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The sales area only presented product features, with no suggestion of coordinating trades to move prices.",
+      "no_violation": "No direction toward market manipulation.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The staffer warned the investor not to place large orders just to distort stock quotes.",
+      "no_violation": "Warning prevents any manipulative practice.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "We trade only legitimate investment conditions, without seeking to influence the market for personal gain.",
+      "no_violation": "Transactions are fair and comply with market integrity.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "It was emphasized that the strategy should consider natural supply and demand, excluding artificial interventions.",
+      "no_violation": "No promotion of price or volume distortion.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "We did not discuss any arrangement to artificially boost trading volume.",
+      "no_violation": "No collusion to manipulate market liquidity.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "We confirm that we are not allowed to coordinate operations aimed at inflating quotes.",
+      "no_violation": "Prevents manipulative behavior.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The internal manager noted that any attempt to influence asset prices artificially goes against regulations.",
+      "no_violation": "Reaffirms the ban on manipulation.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "We only discussed legitimate hedging strategies during the meeting, with no artificial impact on pricing.",
+      "no_violation": "Hedging is legitimate and does not imply market manipulation.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The employee made it clear that they can’t share any ideas to artificially push stock prices up.",
+      "no_violation": "Blocks any approach to manipulate the market.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "We explained to the investor that we’re not authorized to suggest trades intended to alter liquidity in an unnatural way.",
+      "no_violation": "Prevents suggestions of manipulative practices.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "All involved departments follow rules prohibiting any intentional impact on price or volume.",
+      "no_violation": "The institution enforces zero-tolerance on market manipulation.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "No analyst provided instructions for investors to buy en masse to move the asset price.",
+      "no_violation": "No encouragement of manipulative trading.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The sell recommendation was based on fundamentals rather than an attempt to drive prices artificially down.",
+      "no_violation": "Advice follows a valid economic rationale.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "At no time did we suggest the client engage in matched orders to alter stock prices.",
+      "no_violation": "No incentive toward illegal practices.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "All marketing materials clarify that buy and sell decisions must be free of manipulative intentions.",
+      "no_violation": "Echoes the policy against manipulation.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "Compliance confirms no one suggested repricing shares or guiding clients to do so artificially.",
+      "no_violation": "Internal checks prevent illicit strategies.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "We did not discuss any pricing model adjustments with unauthorized parties that could arbitrarily alter pool prices.",
+      "no_violation": "No unauthorized sharing of model or pricing info.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "The staff clarified that we never provide instructions to inflate share prices prior to a follow-on offering.",
+      "no_violation": "Prohibits manipulative behavior before offerings.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+    {
+      "message": "In internal calls, we never discuss methods to artificially raise the stock quote.",
+      "no_violation": "No encouragement of manipulative measures.",
+      "rule_not_infringed": "3. Prevention of Market Manipulation"
+    },
+
+    {
+      "message": "We do not share any strategic details that could grant unfair advantage to one investor over another.",
+      "no_violation": "Prevents conflicts of interest and ensures equal treatment.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "When talking to the issuer, we maintained a neutral stance without favoring a particular investor.",
+      "no_violation": "No suggestion of exclusive benefits.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The employee made it clear he could not offer any special conditions outside the bank’s official policy.",
+      "no_violation": "No undue favoritism is created.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "Pricing decisions are made collectively, and we do not reveal the bank’s internal strategy to any client.",
+      "no_violation": "Internal pricing information remains confidential.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We never propose strategic actions that would only benefit one investor, as that goes against our rules.",
+      "no_violation": "Ensures equal treatment and no privileged advantage.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "During the meeting, the employee did not reveal the bank’s position on that asset, maintaining neutrality.",
+      "no_violation": "No internal positioning details are disclosed.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The staff member avoided discussing the bank’s internal pricing strategy, following conflict of interest guidelines.",
+      "no_violation": "No privileged information was shared.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "When allocating assets, we use objective criteria that are disclosed publicly, preventing special treatment.",
+      "no_violation": "No sign of favoritism in allocation processes.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "There is no special channel for one investor that would create unfair advantages over others.",
+      "no_violation": "Equal access ensures no privileged treatment.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "When discussing the order book, the analyst did not share how the bank plans to position its own orders.",
+      "no_violation": "Avoids exposing the bank’s internal strategy.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The client received only general market conditions, with no direction favoring one participant over another.",
+      "no_violation": "No strategic decisions shared that would create advantage.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "No internal allocation policies were disclosed to the investor, ensuring impartiality.",
+      "no_violation": "Protects the bank’s internal strategy information.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We did not reveal any internal pricing approach that could provide certain clients with an unfair advantage.",
+      "no_violation": "Keeps internal processes confidential.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The staff member reminded everyone that all special deals must go through official approval, preventing conflicts.",
+      "no_violation": "Avoids unauthorized preferential treatment.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "When asked about the bank’s positioning, the employee stated he could not divulge that strategy.",
+      "no_violation": "Ensures secrecy of internal strategies and avoids conflicts.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We can’t adjust the spread individually for a single client without a committee’s authorization, preventing conflicts.",
+      "no_violation": "Standard procedures block arbitrary client preferences.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The team did not disclose to the issuer any details about our internal pricing timeline.",
+      "no_violation": "Retains confidential strategy information.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We emphasize that the investment committee sets rates transparently, applying the same conditions to all clients.",
+      "no_violation": "No individualized advantage given.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "To approve this transaction, we followed standard procedures without revealing internal risk modeling details.",
+      "no_violation": "No internal or strategic data is exposed.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The commercial proposal included no elements that might create a conflict of interest between the bank and the client.",
+      "no_violation": "Maintains neutrality with the investor.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The analyst did not provide strategies benefiting only one party at the expense of others.",
+      "no_violation": "Ensures fairness in suggestions.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "When asked for details about the bank’s selling intentions, we declined, as that’s internal information.",
+      "no_violation": "Does not expose the bank’s position, preventing conflict.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The pricing of the new asset was handled by a committee with no direct interest in those shares.",
+      "no_violation": "Separate structure to avoid conflict.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We did not offer any unauthorized discount to entice individual investment.",
+      "no_violation": "Equal conditions remain for all investors.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "The staff member did not give any internal market timing tips to preferred clients.",
+      "no_violation": "Prevents advantaging some clients over others.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We only shared official prospectus information with the client, not our internal pricing studies.",
+      "no_violation": "Doesn’t disclose the bank’s strategy.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "During allocation, we follow established criteria, avoiding any improvised measures that favor certain parties.",
+      "no_violation": "Transparency in allocation prevents conflicts.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "Meetings with the sales unit are separate from pricing committee discussions, preventing the exchange of privileged data.",
+      "no_violation": "Corporate governance structure prevents conflict of interest.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "When the client asked for more details about our strategy, we explained we couldn’t disclose internal decisions.",
+      "no_violation": "Protects the bank’s confidential strategy.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We made it clear we will not provide any extra benefit without going through the proper approvals.",
+      "no_violation": "Prevents undue concessions outside formal processes.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    },
+    {
+      "message": "We clarified to the investor that final pricing decisions come from a collective body, with no single influence.",
+      "no_violation": "Prevents unilateral decisions that might create conflicts.",
+      "rule_not_infringed": "4. Conflict of Interests"
+    }
+  ]
+}
