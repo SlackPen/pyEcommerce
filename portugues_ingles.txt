@@ -1,0 +1,769 @@
+{
+  "mensagens_violacao": [
+    {
+      "mensagem": "Employee → Investor: \"We can talk off the record about the exact volume the other client is buying. I can give you a very detailed idea.\"",
+      "violacao": "Unauthorized sharing of individualized information about another investor.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Don’t disclose this, but Mr. Andrade placed a huge order today. We need to pass that on to our external partner.\"",
+      "violacao": "Disclosure of specific client order details to third parties.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We received a large buy order from another client. If you act quickly, you can profit before the market finds out.\"",
+      "violacao": "Suggestion to capitalize on privileged information for improper gain.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"I'll give you the names of the clients who will invest heavily tomorrow, just don’t tell anyone.\"",
+      "violacao": "Sharing confidential data about clients without an operational need.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"They’re saying there’s a huge short position coming, but don’t spread this around. It’s internal information.\"",
+      "violacao": "Passing on sensitive information that can influence market decisions.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have buy and sell orders from various VIP clients. Let’s use that data to close a private deal with a partner.\"",
+      "violacao": "Use of individualized client information for external, unauthorized purposes.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you promise not to tell, I’ll give you details of the orders we received in the secondary market today.\"",
+      "violacao": "Disclosure of orders received in the secondary market that should remain confidential.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"I got access to the names of all investors from the last issuance. I’ll send them by email so you can pick whom to negotiate with.\"",
+      "violacao": "Sharing a list of investors without a justified need to use it.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We have access to who’s buying and selling before the market opens. Want me to inform you of those details daily?\"",
+      "violacao": "Offering privileged information about order flow.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s discuss Mr. Santos’s positioning with external people to see if we can get more advantages.\"",
+      "violacao": "Discussing individualized client information with unauthorized third parties.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you want, I can give you the exact buying trend of our main clients so you can get ahead.\"",
+      "violacao": "Communicating market trends in an individualized way to benefit one investor.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s send the order overview to that issuer, indicating that demand is sky-high, so they adjust the price upwards.\"",
+      "violacao": "Transmitting market information that can influence prices outside formal channels.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’ll give you the exact amount of shares everyone’s going to sell today, but keep it between us.\"",
+      "violacao": "Disclosing individualized order data to influence investment decisions.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If the issuer knows there’s low supply, they can raise the price. Let’s tell them to maximize our commission.\"",
+      "violacao": "Passing on supply information to induce the issuer to change price in a non-equitable manner.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Our internal analysis suggests the price will drop tomorrow. If you want to sell now, we can arrange a special deal.\"",
+      "violacao": "Influencing asset pricing without a formal procedure, using privileged internal analysis.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Share a preview of the report in our internal WhatsApp group so everyone can get ahead in the market.\"",
+      "violacao": "Sending market trend information to third parties without formal control.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’m going to pass you some market flow data that will arrive tomorrow. It might help you adjust your positions.\"",
+      "violacao": "Transmitting future market trends that could influence decisions outside official channels.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have the exact numbers of each client’s orders. Let’s inform some preferred funds so they can have an advantage.\"",
+      "violacao": "Unauthorized disclosure of order data to specific parties for a competitive edge.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"You should increase your position now, because we noticed other clients will buy heavily soon.\"",
+      "violacao": "Improper communication of specific market tendencies to manipulate an investment decision.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s send this ‘buy alert’ directly to certain VIP clients before the official announcement.\"",
+      "violacao": "Providing privileged market color to selected clients outside the formal procedure.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you increase your purchases, I can find a way to make the price go up by the end of the day.\"",
+      "violacao": "Proposal to manipulate the price through coordinated buy orders.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We need to keep the closing price above R$10. Hold some sell orders until tomorrow.\"",
+      "violacao": "Coordinating actions to artificially affect the asset’s closing price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Can you buy another 5,000 lots? That way we can push the price to the level we need.\"",
+      "violacao": "Inducement to force a price hike intentionally.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s only disclose the buy order positions to see if other investors panic and drive prices up.\"",
+      "violacao": "Manipulating the market by selectively revealing information to alter prices.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you make a big purchase now, the asset appreciates before closing, and we all profit.\"",
+      "violacao": "Attempt to manipulate price by concentrating a buy volume at a specific time.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Before sending the orders, let’s talk to the issuer to see if they adjust the price in our favor.\"",
+      "violacao": "Coordination to artificially alter asset pricing.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We can space out our orders throughout the day to keep the price high, but you didn’t hear that from me.\"",
+      "violacao": "Proposal to manipulate the order book to maintain an artificially high price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Ask client X not to sell today. That way, we avoid downward pressure on the asset price.\"",
+      "violacao": "Coordinating to restrict sales, thereby manipulating the asset’s value.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Get your friends to buy at the same time. We need to push the price up.\"",
+      "violacao": "Suggesting collective action to artificially influence the price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If we place fake buy orders and cancel them later, we can lead the market to think there’s high demand.\"",
+      "violacao": "Placing misleading orders to manipulate the market.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We’ll hold some orders until the end of the trading session to create a price spike. Are you in?\"",
+      "violacao": "Coordinated plan to alter the price at market close.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"There’s a meeting about adjusting the pricing model for asset X. Let’s invite investor Y, even though they’re not authorized.\"",
+      "violacao": "Sharing pricing model adjustments with an unauthorized individual.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Our department adjusted the risk margin of the pool. If you want to increase your position, now is best, before we inform the market.\"",
+      "violacao": "Disclosure of pricing adjustments prior to the official announcement.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"I’ll pass the pool model data to the investor who requested it. He’s not on the official list, but he’s trustworthy.\"",
+      "violacao": "Sharing pricing information with someone not authorized to receive it.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you exert buying pressure, I guarantee our analysis department won’t adjust the price downward.\"",
+      "violacao": "Agreement to keep the price artificially high in exchange for buy volume.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We need to pass the bank’s pricing model to the external advisor of investor X, even if he’s not formally authorized.\"",
+      "violacao": "Sharing internal pricing information with an unauthorized consultant.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"How about we move this stock above R$8.00? If you buy and I hold some sales, we can do it.\"",
+      "violacao": "Collusion to manipulate the price of an asset in the market.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We’ll guide the investor to only sell if it reaches the bank’s desired price, ensuring profit.\"",
+      "violacao": "Inducing coordinated action for the bank’s benefit, manipulating the market.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Coordinate with the XYZ fund not to sell during the offering. That way, the price won’t drop too much.\"",
+      "violacao": "Market manipulation by restricting supply to maintain an artificial price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If we steer pricing to favor this specific client, we can strike a deal later.\"",
+      "violacao": "Conflict of interest by favoring an investor in exchange for future benefit.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We can prioritize your offer in the pricing, but I’ll need something in return.\"",
+      "violacao": "Arranging a privileged deal that benefits one investor over others.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s share the bank’s internal resource allocation strategy with this client, because he might reward us later.\"",
+      "violacao": "Revealing the bank’s strategic information for private benefit.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I have access to the bank’s strategy to price the asset. I can give you some hints, but keep it confidential.\"",
+      "violacao": "Sharing internal pricing information with a single investor.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"The bank wants certain investors to be privileged in this issuance. Let’s offer a bigger discount to them.\"",
+      "violacao": "Providing privileged benefits to certain investors, harming equality.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you increase your position today, I’ll ensure you have special terms in the next issuance.\"",
+      "violacao": "Offering future advantage in exchange for a larger current position, creating a conflict of interests.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We need to pass the bank’s strategic decision to the issuer, so he can adjust the offering to our advantage.\"",
+      "violacao": "Sharing the bank’s internal strategy with the issuer for personal benefit.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I can put you at the front of the line for this subscription, but I need your help to meet an internal goal.\"",
+      "violacao": "Negotiating subscription priority in exchange for the employee’s personal benefit.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s coordinate with the bank’s proprietary desk so they buy heavily into this stock and push the price up.\"",
+      "violacao": "Working with the proprietary desk to manipulate the price, indicating conflict of interests.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you do what I asked, I can guarantee the bank’s allocation strategy will favor you in the next offering.\"",
+      "violacao": "Promising allocation benefits in exchange for a specific investor action.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Tell the issuer that if they agree to modify the offering to meet our premium client’s needs, we guarantee his participation.\"",
+      "violacao": "Private arrangement between issuer and bank to benefit a specific client.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I can give you the internal pricing schedule details, but let’s keep it under wraps.\"",
+      "violacao": "Disclosing the bank’s internal timeline to one investor at the expense of the market.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We must ensure investor Y is favored in this issuance. Adjust the allocation strategy as requested.\"",
+      "violacao": "Modifying the allocation strategy to benefit a specific investor.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Whoever told you we’d lower the price doesn’t know the backstage. I’ve already decided we’ll keep it high for a while.\"",
+      "violacao": "Price manipulation and unilateral decision in favor of a certain investor.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s hold back real demand information to see if the issuer will negotiate with us on better terms.\"",
+      "violacao": "Omission of information to gain advantage, indicating conflict of interests.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Be careful about selling too much. Our desk won’t like it and might hurt you in the next operation.\"",
+      "violacao": "Suggesting retaliation against the investor, indicating conflict of interests and manipulation.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If investor Z follows our guidance, give him some internal information before the rest of the market.\"",
+      "violacao": "Trading privileged access to internal information for investor cooperation.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We received large buy orders from two funds that will drive up the asset’s price. If you want, buy now and get in position.\"",
+      "violacao": "Sharing privileged information for the benefit of a specific investor.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Client X wants details on client Y’s positions. Let’s pass them along to maintain our relationship.\"",
+      "violacao": "Unauthorized disclosure of another client’s specific positions.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"There’s an internal rumor we’ll release a negative research note on the company. Sell ahead of time if you want.\"",
+      "violacao": "Use of privileged information to induce trading before the official announcement.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If we announce there’s a lot of buying, maybe we can push the price up and then sell our own position.\"",
+      "violacao": "Attempted market manipulation by selectively releasing information to inflate the price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I can give you the internal pricing spreadsheet before it’s official, but you have to keep it quiet.\"",
+      "violacao": "Sharing internal pricing data prior to the formal procedure.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s release a false statement about high demand so the issuer increases the price. Then we’ll sell our position.\"",
+      "violacao": "Market manipulation plan based on false information to raise the asset’s price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’ll hold off on my sell recommendation until you buy everything you need, so the price doesn’t drop first.\"",
+      "violacao": "Manipulating recommendation timing for the individual investor’s benefit.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have to favor XPTO in the issuance. Don’t mention the real risks when talking to other investors.\"",
+      "violacao": "Omission of essential information to favor a specific issuer, creating conflict of interests.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you cooperate with our strategy for this asset, I can give you a discount on brokerage fees and early access to our research.\"",
+      "violacao": "Offering commercial advantages to manipulate investment behavior.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"The VIP investor wants to know who sold those 50,000 shares today. Send it to him.\"",
+      "violacao": "Disclosing specific seller information, violating confidentiality.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Can we talk about the competitor fund’s position? It seems they’re reducing a lot.\"",
+      "violacao": "Attempt to reveal confidential information about another market participant.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If we tell people the interest in the asset is low, we might get a cheaper price to buy and then sell at a profit later.\"",
+      "violacao": "Spreading misleading information to manipulate the purchase price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you join our buying effort, we can push the price up together and then profit.\"",
+      "violacao": "Coordinated plan to manipulate prices and artificially profit.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have a new pricing model. Let’s leak some data to a select group of clients before everyone else.\"",
+      "violacao": "Selective disclosure of pricing model adjustments.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"At the end of the day, we’re going to place large orders to lift the price. Stay alert.\"",
+      "violacao": "Signaling coordinated action to manipulate the closing price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Hide the larger orders during book-building so it looks like demand is weak, and the issuer drops the price.\"",
+      "violacao": "Intentional distortion of demand information to manipulate the issuance price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’ll let you see the size of a rival fund’s order if you promise to increase your buy volume.\"",
+      "violacao": "Trading confidential information about another fund’s order for a larger purchase commitment.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Mention in the discussion groups that demand is extremely high, even if it’s not, to see if the price rises.\"",
+      "violacao": "Attempt to manipulate the market by spreading false demand information.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you close this deal with us today, I can guarantee we won’t publish our negative analyses about your positions.\"",
+      "violacao": "Coercion and conflict of interests by withholding critical analyses in exchange for a deal.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have internal meetings about XPTO’s pricing adjustments. Let’s invite our cousin who works at another fund.\"",
+      "violacao": "Allowing an unauthorized person into internal pricing discussions.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’ll find a way to delay the official report so you can sell before the bad news comes out.\"",
+      "violacao": "Using privileged information to prevent the investor’s loss, manipulating report timing.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s send that internal email with every client’s detailed positions, including names and quantities, to the new intern for analysis.\"",
+      "violacao": "Exposing individualized client information without strict need-to-know.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We have a confidential internal report suggesting a drop in the asset’s price. If you want to sell beforehand, we can expedite it.\"",
+      "violacao": "Early disclosure of an internal report that could affect the asset’s price.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s forward the exact volume of each client’s orders to some partner funds. It’ll help them position themselves.\"",
+      "violacao": "Sharing clients’ detailed order information with third parties without authorization.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Tomorrow at 9 a.m. we’ll give a negative call on the company. If you want, there’s still time to sell today.\"",
+      "violacao": "Using internal communication of a call that affects the price before official publication.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We must hold back client Y’s buy information until the end of the day, so we can trade first.\"",
+      "violacao": "Deliberately withholding privileged information for the bank’s gain before disclosure.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"It crossed my mind that if we all go in and buy today, the price will skyrocket and we’ll profit a lot.\"",
+      "violacao": "Proposing collective action to artificially inflate the price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s give more access to the bank’s strategy to the investor who’s the director’s friend. It’s important to keep him happy.\"",
+      "violacao": "Sharing internal strategy due to personal convenience, causing conflict of interests.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you promise not to sell, we can push management to keep the issue price high so you earn more profit.\"",
+      "violacao": "Proposal to manipulate the price in return for holding off on selling.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have to share today’s incoming order data with the issuer’s external advisor, even without authorization, so he knows the exact timing for pricing.\"",
+      "violacao": "Providing order information without authorization to an external advisor.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Let’s agree to sell only after the final offering. That way, we artificially inflate the initial price.\"",
+      "violacao": "Collusion to keep prices artificially high prior to the offering.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Investor X wants to know who the biggest buyers of the day are. Send him the names; it’ll help him decide.\"",
+      "violacao": "Revealing specific buyer identities, violating confidentiality.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I have a spreadsheet with our predicted orders. If you want, I can email it to you confidentially.\"",
+      "violacao": "Offering a spreadsheet detailing future orders, violating confidentiality policy.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have data indicating the stock will drop. Let’s hold back this information from the market so our group can buy cheaper.\"",
+      "violacao": "Omitting relevant information to benefit the bank’s own trading group.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you can increase your volume, I can arrange a more optimistic analysis, even if the data isn’t that good.\"",
+      "violacao": "Manipulating analysis in exchange for higher trading volume.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We’ll drive the price down today, then buy cheap and later release a positive report.\"",
+      "violacao": "Market manipulation using selective report release for profit.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I know another big client plans to go in heavily tomorrow. If you want to get in beforehand, I can help.\"",
+      "violacao": "Revealing another client’s intention for the benefit of one investor.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If we tell client X that the issuance is oversubscribed, he might agree to pay more.\"",
+      "violacao": "Misleading information to persuade the client to accept a higher price.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’ll give you access to our internal analysis document if you promise to follow our investment strategy.\"",
+      "violacao": "Offering a confidential document in exchange for strategy alignment.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s send a fake report of high demand to this investor. He’ll buy more, and then we’ll sell our position.\"",
+      "violacao": "Creating a fake report to manipulate a purchase decision.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Our pool model is going to change, and it should affect the price. If you want to take advantage, buy before the announcement.\"",
+      "violacao": "Announcing a pool adjustment before the formal procedure.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We can tell the issuer investors are willing to pay more than they really are, forcing the price up.\"",
+      "violacao": "Deceiving the issuer about demand to inflate the price artificially.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’ll give you a heads-up on tomorrow’s flow report. No one else has it yet, so make good use of it.\"",
+      "violacao": "Handing out a future confidential flow report without a formal procedure.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We received a massive sell order from a client. Let’s tip off a friendly fund so they can take advantage.\"",
+      "violacao": "Revealing a client’s specific sell order to benefit another party.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If the price starts falling, we’ll come in buying heavily to hold the quotation. Are you willing to help?\"",
+      "violacao": "Planning coordinated action to manipulate a falling price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We need investor X to be happy. Show him our internal profit projection before the official announcement.\"",
+      "violacao": "Sharing the bank’s internal projections to favor a specific investor.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I can tell you demand for stock Y is low. If you want in, we can then push the price down afterward.\"",
+      "violacao": "Using privileged information to influence a decision and manipulate the price later.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"The official report points to a downtrend, but let’s issue an upbeat release just to keep the issuance value high.\"",
+      "violacao": "Providing information that contradicts the internal analysis to artificially maintain the price.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you help us hold the price until Friday, I’ll guarantee you a bigger allocation in the next offering.\"",
+      "violacao": "Trading privileged allocation for short-term price manipulation.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s tell the market there are big orders, even if there aren’t, to stir up excitement.\"",
+      "violacao": "Spreading false information about large orders to induce a price rally.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I know who’s planning to buy in the next window. If you want, we can front-run them.\"",
+      "violacao": "Using confidential information about others’ planned purchases.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Tell investor X that the bank will raise its reference price. That way, he can increase his position now.\"",
+      "violacao": "Sharing internal reference price changes before the formal announcement.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We can wipe out the sell inventory in a coordinated move, making the market think there’s no supply.\"",
+      "violacao": "Encouraging a practice to manipulate supply perception and distort the price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have the bank’s strategy for the issuance. Let’s pass it on to some selected clients who can invest big.\"",
+      "violacao": "Disclosing internal strategy to a select group of clients.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"The target price we’ll publish for the company is higher than the real one. If you buy now, you can profit.\"",
+      "violacao": "Deliberately inflating the target price to benefit the investor’s trades.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Share the limit order list for all clients with the sales team so they can adjust recommendations.\"",
+      "violacao": "Inappropriate exposure of individual client orders to other departments without strict necessity.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you cooperate with us in manipulating the price today, we’ll guarantee you priority in future transactions.\"",
+      "violacao": "Offering future preference in exchange for price manipulation.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We’ll issue a market note inflating demand, but we won’t mention the forecasted sales that could lower the price.\"",
+      "violacao": "Selective release of information to mislead investors.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"The bank made a 0.5% adjustment to the pool model this morning. If you want to move, do it now before it’s public.\"",
+      "violacao": "Revealing a pool model adjustment before the official announcement.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Forward our clients’ portfolio information to the partner brokerage so they know what products to offer.\"",
+      "violacao": "Sharing individualized client portfolio data with third parties without authorization.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Place large buy orders now, and we’ll issue an optimistic report afterward to reinforce the move.\"",
+      "violacao": "Coordinating buy action and releasing a favorable report to manipulate the market.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"If the client complains they didn’t get info about the offering, say it was their mistake, but don’t reveal we intentionally withheld it.\"",
+      "violacao": "Intentional omission of offering information to manipulate who participates.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I found out the bank will change its pricing strategy next week. If you buy today, you’re sure to profit.\"",
+      "violacao": "Disclosure of an unannounced strategic pricing change.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s tell the issuer to raise the price as much as possible. That way we get a bigger commission margin and the VIP client won’t complain.\"",
+      "violacao": "Coordinating with the issuer to artificially increase the price, benefiting both parties.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Don’t disclose this, but one of our clients will liquidate a large position tomorrow. You can prepare accordingly.\"",
+      "violacao": "Sharing confidential information about a client’s liquidation before it happens.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Send an internal email to the entire team with the detailed orders list, including names and quantities. We need speed.\"",
+      "violacao": "Distributing individualized order information to the whole team without a need-to-know basis.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you inflate your orders, I can convince the issuer to improve the offering price.\"",
+      "violacao": "Encouraging order inflation to induce the issuer to change the price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"The VIP investor wants to know the bank’s strategy for next week. Send him the confidential summary.\"",
+      "violacao": "Handing over undisclosed internal strategy to a specific investor.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you buy a bigger position, we can omit certain negative information in our official analysis.\"",
+      "violacao": "Concealing relevant information in exchange for a larger purchase volume.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s tell clients demand is huge, even if it’s not, just to see if they rush in and buy.\"",
+      "violacao": "Misleading clients with false information about high demand.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’m sure our proprietary desk will step in to keep the price up. You can safely buy.\"",
+      "violacao": "Guaranteeing the bank’s intervention to sustain the price, thus manipulating the market.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We won’t share the real risk of the operation with other investors. We’ll just say everything is fine.\"",
+      "violacao": "Concealing relevant risk information, misleading investors.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you need to talk about the pricing adjustments, let me know. I can fill you in before anyone else.\"",
+      "violacao": "Offering early access to internal pricing information.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s send the issuer’s management the exact number of orders we have before the book-building so they can prepare.\"",
+      "violacao": "Providing pre–book-building order information to the issuer, influencing pricing.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We can agree on a minimum price for your shares. If it threatens to fall, I’ll place fake buy orders to hold it.\"",
+      "violacao": "Market manipulation by placing fake buy orders to maintain a minimum price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We’ll print this confidential report about the bank’s strategy and mail it to investor X.\"",
+      "violacao": "Sharing an internal strategy document without authorization.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"Tomorrow we’ll release a positive note about company ABC. If you want to position yourself beforehand, I guarantee it will go up.\"",
+      "violacao": "Providing information about a forthcoming report before the formal announcement.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Hold client Y’s sell orders until the end of the trading session to keep the quote stable.\"",
+      "violacao": "Delaying orders to manipulate the closing price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you can buy more lots of this asset, I can give you information about other clients trading today.\"",
+      "violacao": "Exchanging confidential client information for increasing position size.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"An investor wants to know how much the bank itself will invest. Let’s give him that info to see if he’ll participate.\"",
+      "violacao": "Disclosing the bank’s own allocation strategy to an investor.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I’ll send you next month’s demand analysis in advance, so you can plan your buys before we announce it.\"",
+      "violacao": "Early disclosure of demand analysis without a formal procedure.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"I can share the internal report showing each investor’s exposure in the last offering. It might be useful for your presentation.\"",
+      "violacao": "Sharing sensitive data about each investor’s exposure.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you help by buying today, I can add you to the list of those who’ll receive our trend analysis in advance.\"",
+      "violacao": "Promising early access to trend analysis in exchange for immediate buying.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"The issuer will modify the prospectus to benefit investor X. Let’s support it, because it also benefits us.\"",
+      "violacao": "Supporting changes to the prospectus to benefit a specific investor, creating a conflict of interests.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you want to secure a good price, tell your contacts to buy in bulk tomorrow. We’ll support it.\"",
+      "violacao": "Suggesting a mass buying strategy to influence the price, which constitutes manipulation.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"The bank decided to raise the minimum price in the issuance but hasn’t announced it. Tell the investor friend before it’s official.\"",
+      "violacao": "Sharing internal decision on minimum price changes prior to official announcement.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I heard a major player will place a huge order. It might be good for you to get in soon.\"",
+      "violacao": "Revealing a third party’s significant order for advance benefit.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Let’s say the offer was oversubscribed, even though it wasn’t, to inflate the price.\"",
+      "violacao": "Providing false demand information to manipulate pricing.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We can highlight your orders and hold off other clients’ orders so you get the best price.\"",
+      "violacao": "Giving privileged order treatment to benefit one investor over others.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We have reports showing each client’s intention for the next offering. Let’s release it to some outside friends.\"",
+      "violacao": "Disclosing specific client intentions to unauthorized third parties.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If you close this big trade today, we can ‘forget’ to send our negative risk note to the market.\"",
+      "violacao": "Withholding a risk note to influence the investment decision, creating a conflict of interests.",
+      "regra_infringida": "2. Restrictions on Providing Market Information"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"Investor X wants to see the allocation model for the offer. Send him all the internal slides.\"",
+      "violacao": "Providing internal allocation materials to a specific investor.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee → Investor: \"I can already tell you the interest rate on the funding will be lowered. Better close your position now.\"",
+      "violacao": "Revealing an internal interest rate decision before the official announcement.",
+      "regra_infringida": "4. Conflict of Interests"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We need to keep investor Y happy. If he wants data on today’s flow, give him everything he asks for.\"",
+      "violacao": "Providing confidential flow data to appease a specific investor.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"We’ll publish an EBITDA estimate for the company that’s higher than reality, so the price looks more attractive before the issuance.\"",
+      "violacao": "Disseminating falsely optimistic estimates to inflate the asset’s price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    },
+    {
+      "mensagem": "Employee A → Employee B: \"We leaked some of client Z’s short positions to a broker friend so he can buy at a cheaper price later.\"",
+      "violacao": "Disclosing a client’s sell orders to favor a third party in the market.",
+      "regra_infringida": "1. Confidentiality and Information Sharing"
+    },
+    {
+      "mensagem": "Employee → Investor: \"If all of you place buy orders simultaneously, we’ll get an artificial demand spike. The bank benefits, and so do you.\"",
+      "violacao": "Planning an artificial demand spike to manipulate the price.",
+      "regra_infringida": "3. Market Manipulation Prevention"
+    }
+  ]
+}

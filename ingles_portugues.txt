@@ -1,0 +1,679 @@
+{
+  "mensagens_violacao": [
+    {
+      "mensagem": "[Funcionário → Investidor] \"Posso te dizer que o Cliente X acabou de fazer uma grande ordem de compra. Você deveria entrar antes que a notícia se espalhe.\"",
+      "violacao": "Revelando informações confidenciais sobre a ordem de um cliente específico.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos dar um aviso ao nosso investidor preferencial de que vamos aumentar o preço desta emissão de título.\"",
+      "violacao": "Tratamento privilegiado para um investidor específico em relação ao preço.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Amanhã, vou compartilhar com você os valores exatos que outros clientes estão comprando. Isso pode te ajudar na sua oferta.\"",
+      "violacao": "Compartilhando detalhes de ordens individualizadas que deveriam ser confidenciais.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Se dermos a entender para certos clientes que o mercado vai cair, eles podem vender mais cedo, fazendo o preço cair para comprarmos barato.\"",
+      "violacao": "Induzir clientes a movimentar o mercado artificialmente para ganho próprio.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nossos traders acabam de receber uma ordem de venda maciça dessa ação. Se você fizer short agora, vai lucrar antes do preço despencar.\"",
+      "violacao": "Vazamento de fluxo de ordens específico para um investidor, incentivando manipulação de mercado.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos segurar o registro dessas negociações até o fim do dia para manter o preço elevado.\"",
+      "violacao": "Tentativa de manipular o preço de fechamento do mercado atrasando negociações.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nossa mesa acabou de decidir aumentar o preço desses títulos hipotecários amanhã. Se posicione agora.\"",
+      "violacao": "Compartilhamento de decisão interna de precificação antes do anúncio formal.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Não deixe a equipe de operações saber, mas vou vazar parte do livro de ordens para nosso principal cliente, como um alerta rápido.\"",
+      "violacao": "Divulgação indevida do livro de ordens a terceiros sem necessidade.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Tenho informações exclusivas sobre como o banco pretende precificar o IPO da próxima semana. Isso vai te dar uma grande vantagem.\"",
+      "violacao": "Fornecer estratégia interna de precificação para benefício de um investidor.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Se falarmos a alguns hedge funds que estamos prestes a revisar para cima o preço, eles podem impulsionar a ação antes do anúncio oficial.\"",
+      "violacao": "Compartilhar informação sensível que pode resultar em manipulação de preço antes de um anúncio.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Sabemos, a partir de dados internos, que muitos clientes venderão amanhã. Seria sábio fazer um short pesado.\"",
+      "violacao": "Divulgação de planos de negociação de clientes que deveriam ser confidenciais.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos vazar um boato para derrubar o preço, assim nossa mesa interna pode comprar com desconto.\"",
+      "violacao": "Coordenar esquema de manipulação baseado em boatos.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te contar exatamente quais clientes estão saindo do fundo. É só entre nós, claro.\"",
+      "violacao": "Fornecer detalhes específicos sobre o resgate de clientes.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Lembre de dar ao nosso cliente preferencial uma prévia confidencial dos termos da próxima emissão de títulos.\"",
+      "violacao": "Oferecer termos de emissão privilegiados a um cliente específico.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"A equipe de Vendas já alinhou um ajuste de 0,3% no modelo de pool. Se você quiser entrar, agora é a hora.\"",
+      "violacao": "Compartilhamento de ajustes internos sobre o modelo de precificação antes do anúncio oficial.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos instruir alguns traders a adiar algumas ordens de venda para que o preço permaneça alto, agradando o emissor.\"",
+      "violacao": "Manipular o momento das negociações para manter preços artificialmente elevados.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Temos detalhes de todos os grandes participantes na próxima oferta secundária. Quer ver?\"",
+      "violacao": "Oferecer informações sobre a participação de outros investidores em uma oferta secundária.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Garantir que o CFO da companhia saiba que esperamos que a ação suba, para que ele possa empurrar o preço ainda mais antes do anúncio.\"",
+      "violacao": "Encorajar o emissor a influenciar o preço das ações baseado em informação não pública.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Se você prometer comprar mais na próxima emissão, eu te conto como nossa equipe interna avalia essa carteira de títulos.\"",
+      "violacao": "Troca de avaliação confidencial por compromisso de investimento.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos soltar informalmente que o fluxo está muito forte, assim talvez os clientes aumentem suas posições antes da precificação.\"",
+      "violacao": "Espalhar informação indevida para influenciar o mercado a elevar preços antes da oferta.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vi ordens grandes no nosso sistema. Você deveria vender agora antes que todo mundo reaja.\"",
+      "violacao": "Divulgação de fluxo de ordens confidenciais para apenas um investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Precisamos compartilhar as mudanças de dividendos previstas com alguns clientes para que comprem mais ações.\"",
+      "violacao": "Divulgação de informação interna sobre dividendos para certos clientes obterem vantagem.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te passar o volume exato de ordens de compra recebidas esta manhã. Mantenha sigilo.\"",
+      "violacao": "Revelar volume específico de ordens de compra a um único investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Para garantir que o preço de fechamento fique alto, vamos igualar apenas as ordens de compra grandes até os minutos finais.\"",
+      "violacao": "Coordenar negociações para inflar artificialmente o preço de fechamento.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nossa área de modelagem decidiu mexer na precificação da pool em 0,3% amanhã, então se comprar agora, você lucrará quando for oficial.\"",
+      "violacao": "Compartilhamento de informação interna sobre mudança no modelo antes do anúncio.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Devemos avisar alguns fundos de que esperamos um salto de 10% no preço, assim eles compram cedo e ajudam a subir a ação.\"",
+      "violacao": "Encorajar investidores selecionados a mover o preço com informação não pública.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Temos um acordo interno com o emissor para manter o preço da ação acima de R$5. Talvez seja uma boa ideia comprar agora.\"",
+      "violacao": "Divulgação de acordo interno sobre preço-alvo para vantagem injusta.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vaze parte do livro de ordens para nossa afiliada para que possam ajustar a estratégia de lance.\"",
+      "violacao": "Compartilhamento de informações confidenciais do livro de ordens com afiliada.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Recebemos uma dica interna da mesa de sindicato. Se você comprar ações agora, vai lucrar quando ajustarmos o modelo depois.\"",
+      "violacao": "Fornecimento de informação interna da mesa de sindicato para ganho pessoal.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Precisamos garantir um fechamento forte para essa ação. Execute apenas as ordens de compra grandes nos últimos 15 minutos.\"",
+      "violacao": "Manipular o mercado ao executar apenas ordens de compra para influenciar o preço de fechamento.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Temos conhecimento de que o concorrente vai fazer uma venda grande. Você deveria agir antes disso.\"",
+      "violacao": "Encorajar antecipação de ordens (front-running) com base em informação confidencial do concorrente.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Se anunciarmos uma demanda artificialmente alta, podemos elevar o preço dessa nova emissão.\"",
+      "violacao": "Deturpar a demanda de mercado para manipular o preço de emissão.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Eu vejo a posição exata de um grande investidor. Eles estão prestes a vender tudo. Hora de vender.\"",
+      "violacao": "Divulgação da posição e estratégia de outro investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Devemos coordenar com o emissor para precificar a oferta inicialmente abaixo do valor, assim nossos clientes selecionados podem entrar antes.\"",
+      "violacao": "Manipular a precificação inicial para favorecer certos clientes.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Tenho a dica interna de como o banco vai ajustar o spread de títulos hipotecários. Se agir agora, pode lucrar antes do anúncio oficial.\"",
+      "violacao": "Vazamento de informação privilegiada sobre ajuste de spread.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Segure as ordens de venda até a próxima semana para que o preço não caia durante o roadshow.\"",
+      "violacao": "Atrasar ordens de venda para sustentar artificialmente os preços.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te encaminhar a lista confidencial de todas as ordens pendentes. Só entre nós.\"",
+      "violacao": "Compartilhando ordens pendentes detalhadas com um investidor externo.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Avise ao grande gestor de fundos que vamos rebaixar a ação depois que ele sair.\"",
+      "violacao": "Fornecer dica de rebaixamento futuro para que um investidor saia primeiro.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nossa mesa está definida para mudar o modelo de pool amanhã, o que deve valorizar os títulos. Entre antes que seja oficial.\"",
+      "violacao": "Compartilhamento antecipado de mudança no modelo de pool.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Devemos sugerir ao CFO recomprar ações logo depois que publicarmos um relatório favorável, garantindo uma alta no preço.\"",
+      "violacao": "Encorajar o emissor a manipular o momento da recompra de ações para afetar o preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Tenho o detalhamento de quem está participando do negócio de títulos. Você saberá quem pode ultrapassar.\"",
+      "violacao": "Divulgação de detalhes confidenciais da participação de investidores em uma transação.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos alinhar com a equipe de Vendas para aumentar a faixa de preço em 0,5% e avisar alguns clientes-chave para comprarem antes.\"",
+      "violacao": "Conluio para elevar a faixa de preço e informar certos clientes antecipadamente.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Temos dados não divulgados que mostram alta demanda. Se você triplicar seu pedido, garantimos prioridade na alocação.\"",
+      "violacao": "Oferta de alocação prioritária em troca de aumento de pedido, usando dados de demanda não divulgados.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos vazar o boato de que um grande player está entrando. O hype vai elevar o preço antes de vender.\"",
+      "violacao": "Espalhar boato não confirmado para inflar o preço artificialmente.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Posso te contar como cada corretora está se posicionando nesse ETF, mas é extraoficial.\"",
+      "violacao": "Revelar posições específicas de corretoras em violação ao sigilo.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Se coordenarmos com o líder do sindicato para reduzir a oferta artificialmente, elevaremos o preço da emissão.\"",
+      "violacao": "Reduzir a oferta intencionalmente para manipular o preço de emissão.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Posso te dizer o preço exato que estamos mirando para esse título conversível. Não conte a ninguém.\"",
+      "violacao": "Compartilhar o preço-alvo interno para um título conversível.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Ocultando alguns dados negativos sobre o emissor, conseguiremos um preço melhor dos investidores.\"",
+      "violacao": "Omitir informações relevantes para manipular o resultado da oferta.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Recebemos notícia de um grande cliente que vai sair. Pode ser uma boa ideia fazer short na posição dele.\"",
+      "violacao": "Revelar planos de resgate de um cliente a outro investidor para ganho pessoal.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Se liberarmos essas ordens de venda grandes só mais tarde, podemos manter o preço alto.\"",
+      "violacao": "Atrasar as ordens de venda para manipular o preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Compartilharei todo o pipeline de ordens se você se comprometer a comprar bastante para sustentar o preço.\"",
+      "violacao": "Troca de dados confidenciais de pipeline em troca de suporte ao preço.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos manter em segredo o ajuste do nosso modelo, exceto para nossos clientes top que vão agir primeiro.\"",
+      "violacao": "Divulgação seletiva de ajustes internos de modelo para determinados clientes.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Estou enviando um arquivo com todas as alocações individuais para você ver quem está comprando quanto.\"",
+      "violacao": "Fornecimento de dados individualizados de alocação a um investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos recomendar ao emissor que reajuste o preço para cima com base em ordens preliminares que não divulgamos.\"",
+      "violacao": "Aconselhar emissor a alterar preço usando informações de ordens não divulgadas.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vamos alterar a fórmula de precificação na próxima semana, mas se você entrar agora, consigo um desconto.\"",
+      "violacao": "Oferecer vantagem antecipada baseado em mudança interna de fórmula de precificação.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Coordene com o trader para ‘espalhar’ ordens falsas de compra e criar a impressão de alta demanda. Isso deve puxar o preço para cima.\"",
+      "violacao": "Simular ordens para manipular a percepção do mercado.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te passar a divisão exata de quantas ações cada investidor vai receber nessa oferta. Use isso para planejar suas posições.\"",
+      "violacao": "Divulgar detalhes de alocação de cada investidor na oferta.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Lembre nosso maior cliente de que, se aumentar seu lance, garantimos o número exato de ações que ele vai receber.\"",
+      "violacao": "Vincular detalhes de alocação ao aumento de oferta de um investidor para vantagem.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"O comitê de precificação está inclinado a elevar a taxa. Aja agora para garantir um preço menor antes do anúncio público.\"",
+      "violacao": "Revelar decisão interna do comitê de precificação antes do anúncio oficial.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Queremos que a ação feche acima de R$10. Junte todas as ordens grandes de compra perto do fechamento.\"",
+      "violacao": "Elevar artificialmente o preço de fechamento com ordens de compra concentradas.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te manter informado sobre todos os níveis de stop-loss que vemos no nosso sistema, para que você possa acionar e lucrar.\"",
+      "violacao": "Compartilhar informações confidenciais de stop-loss para manipular negociações.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos aconselhar o emissor a não divulgar certas contingências para conseguir um preço melhor na emissão.\"",
+      "violacao": "Sugerir ao emissor omitir dados financeiros importantes para obter vantagem na precificação.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Um de nossos maiores clientes sinalizou que vai se desfazer de metade da carteira. Venda agora para evitar a queda.\"",
+      "violacao": "Compartilhar plano confidencial de venda de um grande cliente para ganho de outro investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Se dissermos a alguns clientes-chave que a demanda está 2x acima do esperado, isso pode se tornar realidade.\"",
+      "violacao": "Induzir clientes a comprar com base em dados de demanda inflados.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Posso te fornecer atualizações em tempo real de cada ordem de grande porte que executarmos, para você ajustar suas posições imediatamente.\"",
+      "violacao": "Fornecer dados de execução em tempo real que deveriam ser confidenciais.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Peça ao time de análise para soltar uma classificação favorável antes de nos desfazermos das nossas posições.\"",
+      "violacao": "Manipular o momento do rating do analista para beneficiar posições do banco.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Temos info exclusiva de que o modelo interno de pool vai mudar na próxima semana. Compre agora e me agradeça depois.\"",
+      "violacao": "Passar informação exclusiva sobre mudança no modelo antes do anúncio público.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Podemos coordenar com a equipe de Vendas para direcionar investidores a darem lances mais altos, assim elevamos o preço final.\"",
+      "violacao": "Conluio para manipular lances dos investidores e, consequentemente, o preço final.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nosso cliente especial planeja vender 100 mil ações amanhã. Fazer short agora pode ser lucrativo.\"",
+      "violacao": "Divulgação de ordem de venda grande e futura de um cliente para ganho de outro investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Se inflarmos artificialmente o preço da ação hoje, o emissor pode ser mais flexível conosco amanhã.\"",
+      "violacao": "Manipular o preço da ação para obter favorecimento do emissor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te mostrar como cada grande instituição vai ofertar no leilão de amanhã. Use isso para dar lances melhores.\"",
+      "violacao": "Disponibilizar informações de ofertas de outras instituições para um único investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos ajustar o comentário de mercado oficial para soar mais otimista, fazendo as ações subirem e favorecendo nossas posições internas.\"",
+      "violacao": "Deturpar análise oficial para elevar preço e beneficiar posições próprias.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Sei que o ajuste de modelo é confidencial, mas te passo se você se comprometer a fazer uma grande compra.\"",
+      "violacao": "Venda de informação interna de modelo em troca de grande ordem.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Se quisermos uma melhor avaliação do emissor, vamos garantir que os maiores acionistas dele recebam lotes maiores.\"",
+      "violacao": "Oferecer tratamento preferencial aos principais acionistas do emissor.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Aqui estão os dados em tempo real de todas as ordens de compra desse título. Você pode se posicionar antes deles.\"",
+      "violacao": "Fornecer dados confidenciais de ordens de compra em tempo real a um investidor externo.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Devemos passar ao emissor alguns dados negativos sobre o concorrente para que eles desencorajem negociações naquele papel, favorecendo o nosso.\"",
+      "violacao": "Manipular percepção do emissor sobre concorrentes para ganho próprio.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nossa projeção interna diz que o preço vai disparar na segunda. Se você comprar agora, pega essa onda.\"",
+      "violacao": "Compartilhar projeções internas não públicas para orientar a negociação de um investidor.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Atrasar a confirmação dessa grande ordem de venda até vermos se conseguimos elevar o preço primeiro.\"",
+      "violacao": "Atrasar ordem de venda para manipular o preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te mostrar todo o pipeline de fluxos institucionais do mercado secundário se continuar operando conosco.\"",
+      "violacao": "Troca de informação confidencial de fluxo por fidelidade de operação.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos divulgar ao mercado um número um pouco inflado de demanda esperada para gerar entusiasmo.\"",
+      "violacao": "Divulgar dados de demanda enganosos para influenciar o mercado.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"O CFO nos contou em sigilo que vão reduzir dividendos. Venda agora antes do anúncio oficial.\"",
+      "violacao": "Passar informação material e não pública sobre dividendos a um investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Sugira a alguns investidores-chave que, se eles superarem seus lances, compensaremos com alocações extras em outro negócio.\"",
+      "violacao": "Manipular alocações em negócios diferentes para favorecer certos investidores.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Estamos mantendo artificialmente o spread dos títulos baixo até termos compradores suficientes. Se você se apressar, vai se beneficiar.\"",
+      "violacao": "Admitir controle artificial do spread para oferecer vantagem ao investidor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Não podemos deixar o mercado ver essa ordem de venda gigante. Oculte-a até fecharmos um comprador a um preço melhor.\"",
+      "violacao": "Esconder uma grande ordem de venda para manipular a percepção do mercado.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Tenho a relação exata do tamanho de ordem de cada participante no leilão de amanhã. Use-a com sabedoria.\"",
+      "violacao": "Divulgar o tamanho de ordens de cada participante em um leilão.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Se colocarmos um fluxo falso de lances no início, os investidores podem entrar de forma mais agressiva.\"",
+      "violacao": "Criar falsa impressão de alta demanda para elevar o preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Estamos prestes a elevar o preço desse título com pouca liquidez. Se você comprar antes disso, vai lucrar.\"",
+      "violacao": "Avisar antecipadamente sobre uma elevação de preço para ganho particular do investidor.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos deslocar algumas negociações internas para fingir uma forte demanda no pregão matutino.\"",
+      "violacao": "Realizar negociações simuladas para criar uma ilusão de demanda.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Sabemos que a instituição concorrente colocou uma grande posição vendida. Se você fizer o oposto agora, pode encurralá-los.\"",
+      "violacao": "Divulgar estratégia confidencial de instituição concorrente.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos garantir que nosso cliente especial receba detalhes exatos do nosso modelo de precificação. Os outros não precisam disso.\"",
+      "violacao": "Fornecer acesso privilegiado a detalhes do modelo interno de precificação.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nossa mesa vai ajustar o modelo de risco na segunda-feira, o que deve elevar as avaliações. Compre agora.\"",
+      "violacao": "Compartilhar informação interna sobre ajustes futuros no modelo de risco para benefício do investidor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Temos que convencer o emissor a tirar algumas notícias negativas do prospecto final para manter o preço alto.\"",
+      "violacao": "Encorajar o emissor a omitir informações negativas para manter o preço.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Os grandes clientes vão rebalancear semana que vem, prevendo queda nessa ação. É melhor fazer short agora.\"",
+      "violacao": "Informar um investidor sobre planos de rebalanceamento de outros clientes.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Peça à equipe quantitativa a atualização da fórmula e compartilhe apenas com nossos clientes que geram mais comissão.\"",
+      "violacao": "Divulgar de forma injusta atualizações de fórmula interna para clientes selecionados.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Temos dados não públicos indicando que o próximo leilão de títulos está subdimensionado. Você pode forçar o rendimento para cima dando lances baixos.\"",
+      "violacao": "Compartilhar nível de subscrição de leilão para permitir que um investidor manipule o rendimento.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Se inflarmos artificialmente o preço hoje, podemos ter lucros maiores no nosso estoque interno.\"",
+      "violacao": "Manipular o preço de mercado para melhorar lucro próprio.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te contar em primeira mão que a instituição ao lado está planejando uma oferta hostil. Compre as ações agora.\"",
+      "violacao": "Divulgar confidencialmente um possível movimento de aquisição hostil para ganho do investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Encaminhe a lista completa de investidores do emissor para mim, assim eu compartilho com nosso fundo parceiro.\"",
+      "violacao": "Enviar lista confidencial de investidores para um terceiro.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vamos revisar oficialmente nossa projeção para cima amanhã. Compre opções de compra agora; você terá lucro.\"",
+      "violacao": "Revelar revisão oficial iminente para vantagem do investidor.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Oculte os dados reais de fluxo de negociação para manter o mercado no escuro até ajustarmos nossas posições.\"",
+      "violacao": "Esconder dados de fluxo reais para manipular a percepção do mercado.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Acabamos de atualizar internamente o valor justo. Você não verá isso em lugar nenhum ainda, então compre agora.\"",
+      "violacao": "Compartilhar ajuste de valor justo interno antes de divulgação oficial.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Se passarmos algumas notícias negativas sobre um emissor rival para certos clientes, eles podem transferir fundos para a nossa oferta.\"",
+      "violacao": "Divulgação de informações negativas sobre concorrente para ganho próprio.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Aqui está o detalhamento confidencial de cada tamanho de ordem dos participantes na nova oferta de ações. Não divulgue.\"",
+      "violacao": "Divulgar tamanhos de ordens de cada participante da oferta.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos orientar o emissor a projetar receitas exageradamente otimistas para podermos precificar a emissão mais alto.\"",
+      "violacao": "Encorajar o emissor a inflar projeções de receita para melhorar preço de emissão.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Você será o primeiro a saber o preço final exato amanhã. Garanta dobrar sua posição agora.\"",
+      "violacao": "Prometer informação de preço final antecipada para ganho pessoal do investidor.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos rodar uma verificação rápida das ordens no mercado secundário que estão por vir e passar os dados para nosso maior investidor antes de liquidar.\"",
+      "violacao": "Fornecer dados de ordens no mercado secundário antes da liquidação a um investidor privilegiado.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Podemos inflar artificialmente a subscrição dessa oferta se você prometer uma grande ordem. Aí divulgaremos que foi superavitária.\"",
+      "violacao": "Articular falsa superinscrição ao coordenar com um investidor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Diga aos traders para não processarem nenhuma venda significativa até termos compradores suficientes a um preço mais alto.\"",
+      "violacao": "Atrasar ordens de venda para manter o preço artificialmente elevado.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Estou quebrando o protocolo aqui, mas o anúncio oficial sobre o rendimento do título sai na quarta. Se posicione antes.\"",
+      "violacao": "Revelar data exata de anúncio de rendimento para vantagem do investidor.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos comunicar ao emissor uma falsa sensação de alta demanda para que ele precifique o título mais caro, beneficiando nossos próprios ativos.\"",
+      "violacao": "Fornecer informações enganosas sobre demanda para manipular a precificação do título.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Não conte a ninguém, mas estamos prestes a ajustar a taxa de referência no nosso modelo interno, o que aumentará sua posição.\"",
+      "violacao": "Informar ajustes internos de referência a um único investidor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Se atrasarmos a divulgação de algumas negociações, o mercado pode achar que a liquidez está baixa e empurrar o preço pra cima.\"",
+      "violacao": "Restringir artificialmente a divulgação de negociações para impactar o preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Percebi ordens enormes de venda para amanhã. Se você se desfizer das suas ações hoje, pode evitar a queda.\"",
+      "violacao": "Compartilhar conhecimento confidencial de ordens de venda iminentes.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Podemos insinuar que o emissor pode ser comprado em breve, mesmo sem ter certeza, para elevar o preço da ação.\"",
+      "violacao": "Espalhar rumores não confirmados de aquisição para manipular preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Se você prometer fazer uma grande ordem, vou te dar uma visão interna de como planejamos precificar a oferta de REIT do mês que vem.\"",
+      "violacao": "Trocar informações de precificação por um compromisso de compra grande.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos ocultar as análises sobre a baixa demanda real para justificarmos um preço de emissão mais alto.\"",
+      "violacao": "Esconder dados reais de demanda para inflar o preço artificialmente.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Temos dados privilegiados mostrando que pequenos fundos vão vender em massa. Use isso para montar sua posição vendida.\"",
+      "violacao": "Vazamento de planos de venda de pequenos fundos para benefício de outro investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Peça à equipe quant para elevar a classificação interna. Assim vamos atrair mais clientes antes da classificação oficial.\"",
+      "violacao": "Manipular a classificação interna antes de divulgá-la oficialmente para atrair clientes.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vamos revisar para baixo o custo de capital desse setor. Compre antes de anunciarmos para lucrar.\"",
+      "violacao": "Revelar revisão iminente do custo de capital para ganho do investidor.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Segure o último lote de ordens para controlarmos o preço final de listagem durante o leilão.\"",
+      "violacao": "Manipular o preço de listagem final retendo ordens.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te adiantar o ajuste de cálculo de spread de crédito que faremos amanhã. É nosso segredinho.\"",
+      "violacao": "Fornecer informação antecipada de ajuste de spread de crédito para um investidor.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Não vamos avisar o compliance, mas vamos direcionar as ordens limitadas do grande cliente primeiro para nosso fundo parceiro.\"",
+      "violacao": "Encaminhar ordens de um cliente para fundo parceiro sem conhecimento do compliance.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Decidimos internamente ajustar as premissas de taxa de juros no próximo trimestre. Se você investir agora, garante um retorno melhor.\"",
+      "violacao": "Divulgação de premissas internas futuras de taxa de juros para lucro do investidor.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Se inflarmos os dados de demanda em nosso marketing, o mercado vai achar que há muito interesse, elevando o preço.\"",
+      "violacao": "Distorcer dados de demanda para aumentar artificialmente o interesse do mercado.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te enviar os ajustes de modelo para cada classe de ativos antes de divulgarmos a qualquer outro.\"",
+      "violacao": "Fornecimento exclusivo de detalhes de ajustes do modelo antes do público.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Sugira ao emissor segurar notícias negativas até concluirmos a colocação, assim conseguimos um preço mais alto.\"",
+      "violacao": "Cronometrar a divulgação de notícias negativas para obter melhor preço de colocação.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Reuni os próximos movimentos dos 10 maiores clientes. Garanta que você aja antes deles nas negociações de amanhã.\"",
+      "violacao": "Listar planos de negociação dos principais clientes para um investidor se antecipar.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Vamos fornecer uma perspectiva falsamente otimista para alguns veículos de imprensa, assim novos investidores entram pagando mais.\"",
+      "violacao": "Divulgar informações excessivamente otimistas para manipular o preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Nossa mesa interna planeja levar o preço da ação acima de R$15 amanhã. É bom comprar na abertura.\"",
+      "violacao": "Compartilhar plano interno de elevar o preço artificialmente para benefício do investidor.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos direcionar grandes clientes institucionais a comprar pesado na primeira hora e impedi-los de vender, mantendo o preço lá em cima.\"",
+      "violacao": "Coordenar estratégia de compra e retenção entre investidores específicos para sustentar preço.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Vou te mandar o detalhamento de cada grande ordem no mercado secundário dessa emissão futura. Você pode basear seus lances nisso.\"",
+      "violacao": "Revelar informações confidenciais de ordens grandes no mercado secundário para um investidor.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    },
+    {
+      "mensagem": "[Funcionário A → Funcionário B] \"Podemos instruir o custodiante a atrasar certas ordens de venda para que o volume diário pareça otimista.\"",
+      "violacao": "Manipular o volume aparente de negociações ao atrasar ordens de venda.",
+      "regra_infringida": "3. Prevenção à Manipulação de Mercado"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Posso te enviar o memorando interno sobre como vamos definir os preços de abertura amanhã. Só não conte para ninguém.\"",
+      "violacao": "Divulgação de memorando interno detalhando estratégia de preço de abertura.",
+      "regra_infringida": "2. Restrições na Transmissão de Informações ao Mercado"
+    },
+    {
+      "mensagem": "[Funcionário B → Funcionário A] \"Vamos superestimar um pouco o lucro projetado no nosso pré-lançamento para atrair mais investidores.\"",
+      "violacao": "Apresentar projeções de lucro infladas para atrair investidores de forma artificial.",
+      "regra_infringida": "4. Conflito de Interesses"
+    },
+    {
+      "mensagem": "[Funcionário → Investidor] \"Tenho acesso ao feed em tempo real de ordens pendentes. Eu te passo em troca de um aumento na sua ordem.\"",
+      "violacao": "Vender acesso ao feed de ordens pendentes em troca de uma ordem maior.",
+      "regra_infringida": "1. Confidencialidade e Compartilhamento de Informações"
+    }
+  ]
+}
