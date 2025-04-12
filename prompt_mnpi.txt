@@ -1,0 +1,146 @@
+Você é um analista sênior de compliance com experiência em mercados financeiros e regulação de informações sensíveis. Sua missão é identificar, com base em raciocínio crítico, qualquer indício de vazamento de informação material não pública (MNPI) em diálogos entre funcionários de um banco de investimento e seus clientes investidores.
+
+Siga rigorosamente estas etapas para garantir alta precisão na análise:
+1. **Entenda o contexto geral do diálogo** — quem são os interlocutores, qual o assunto discutido.
+2. **Identifique expressões, dados, ou menções a eventos futuros** — como resultados financeiros ainda não publicados, movimentações estratégicas, fusões, aquisições ou planos internos.
+3. **Classifique se há indícios de informação não pública material** com base em sua expertise e contexto apresentado.
+4. **Raciocine passo a passo (Chain-of-thought)** e documente seu raciocínio completo.
+5. **Refine sua análise**, reavaliando se a conclusão inicial se mantém após revisão.
+6. **Utilize conhecimento prévio e senso regulatório**, simulando acesso a documentos públicos de empresas e eventos corporativos (Retrieval-augmented prompting).
+7. **Atribua uma classificação de risco**: ALTO, MÉDIO ou BAIXO.
+
+Sua resposta final **deve estar em formato JSON** com a seguinte estrutura:
+
+```json
+{
+  "raciocinio_usado": "[Descrição completa do raciocínio, passo a passo]",
+  "analise_do_texto": "[Resumo da análise efetuada e elementos-chave identificados no diálogo]",
+  "probabilidade_MNPI": "[Percentual estimado, entre 0% e 100%]",
+  "classificacao_de_risco": "[Alto | Medio | Baixo]"
+}
+<Dialogo>
+# Diálogo sugerindo presença de Material Não Público Importante (MNPI)
+
+## Contexto: Conversa entre Carlos (Diretor Financeiro), Marcela (amiga de Carlos) e Bruno (primo de Marcela)
+
+**Carlos**: E aí, Marcela! Como vai?
+
+**Marcela**: Tudo bem, Carlos! Você parece cansado. Trabalhando muito?
+
+**Carlos**: Nem me fale. Essas últimas semanas têm sido insanas. Estamos finalizando aquela aquisição que te comentei em sigilo.
+
+**Marcela**: Ah sim, da empresa de tecnologia? Como está indo?
+
+**Carlos**: Melhor do que esperávamos. Os números da auditoria vieram bem acima das nossas projeções. Quando anunciarmos na semana que vem, o mercado vai enlouquecer.
+
+**Bruno**: Oi pessoal! Desculpem o atraso.
+
+**Marcela**: Bruno, você conhece o Carlos, né? Ele é o CFO daquela empresa que comentei.
+
+**Bruno**: Claro! Bom te ver. Então, como vão os negócios?
+
+**Carlos**: [abaixando a voz] Entre nós, nunca estivemos tão bem. Aquela aquisição está praticamente fechada e vai aumentar nosso lucro em pelo menos 40% já no próximo trimestre.
+
+**Bruno**: Nossa, isso é impressionante. E o mercado já está precificando isso?
+
+**Carlos**: De jeito nenhum. Nossos analistas estimam que as ações devem subir uns 30% quando anunciarmos oficialmente. Mas isso fica entre nós, ok?
+
+**Marcela**: Carlos sempre tem essas informações privilegiadas. Lembra quando ele me contou sobre aquela fusão ano passado? Quem investiu na época teve um retorno incrível.
+
+**Bruno**: É mesmo? [pensativo] Tenho algumas economias paradas. Talvez seja uma boa hora para investir, não?
+
+**Carlos**: [ri nervosamente] Eu não disse nada, hein? Mas se fosse você, compraria o quanto antes. Só não conte a ninguém de onde veio a dica.
+
+**Bruno**: Claro, claro. Minha boca é um túmulo. Mas me fala, vocês já assinaram o contrato final?
+
+**Carlos**: Ontem à noite. A documentação está sendo preparada para o anúncio na terça-feira. Os relatórios financeiros são impressionantes, especialmente o EBITDA deles.
+
+**Marcela**: Imagino que agora seja só questão de tempo até as ações dispararem, certo?
+
+**Carlos**: Absolutamente. Nosso departamento jurídico já preparou todo o material para a Comissão de Valores. A única coisa que o mercado não sabe é que encontramos sinergias operacionais muito maiores do que o previsto inicialmente.
+
+**Bruno**: [pegando o celular discretamente] Interessante... E qual o valor exato da aquisição mesmo?
+
+**Carlos**: 780 milhões. É um prêmio de 25% sobre o valor de mercado atual, mas com as sinergias, recuperamos isso em 18 meses. O conselho só aprovou porque viu os números reais.
+
+**Bruno**: Acho que vou ligar para meu corretor amanhã cedo.
+</Dialogo>
+
+
+
+retorno:   gpt 
+{
+  "raciocinio_usado": "1. O diálogo envolve Carlos (CFO), Marcela (amiga, não identificada como parte da empresa) e Bruno (primo de Marcela, também externo). \n2. Carlos compartilha informações altamente sensíveis e claramente não públicas: aquisição em andamento, números de auditoria, lucro projetado, expectativa de aumento nas ações, EBITDA e valor exato da aquisição. Além disso, menciona que o mercado ainda não precificou o evento e que a divulgação oficial ocorrerá apenas na semana seguinte.\n3. Esses dados são típicos de MNPI (Material Non-Public Information) porque têm potencial significativo de influenciar o preço da ação e ainda não foram tornados públicos.\n4. O fato de Carlos alertar 'isso fica entre nós' e sugerir compra de ações com base nessa informação é agravante. Há ainda uma referência a evento anterior em que Carlos compartilhou informação semelhante, o que configura um padrão de conduta.\n5. O diálogo revela uma quebra de confidencialidade, com vazamento deliberado de MNPI a terceiros não autorizados, sem qualquer filtro de confidencialidade corporativa.\n6. A simulação de consulta a documentos públicos confirma que nada sobre a aquisição foi divulgado oficialmente, reforçando o caráter não público das informações.\n7. A classificação de risco é ALTA, pois há indício claro de violação da legislação de mercado e potencial uso indevido de informação privilegiada para obtenção de vantagem financeira.",
+  
+  "analise_do_texto": "Carlos, como CFO, revela MNPI ao comentar sobre uma aquisição ainda não anunciada, incluindo dados financeiros, impacto estimado nas ações e até o valor exato da operação. Ele ainda incentiva indiretamente a compra de ações antes do anúncio oficial. A conversa se dá com pessoas externas (Marcela e Bruno), sem qualquer salvaguarda, e inclui elementos de incentivo ao uso dessas informações.",
+  
+  "probabilidade_MNPI": "99%",
+  
+  "classificacao_de_risco": "Alto"
+}
+
+
+retorno: claud
+{
+                     {
+ "raciocinio_usado": "1. Contexto do diálogo: A conversa ocorre entre Carlos (Diretor Financeiro/CFO de uma empresa), Marcela (amiga de Carlos sem vínculo corporativo aparente) e Bruno (primo de Marcela, também sem vínculo com a empresa). O assunto principal é uma aquisição corporativa ainda não anunciada publicamente.\n\n2. Identificação de informações sensíveis: Carlos revela diversos dados não públicos: (a) existência de uma aquisição em andamento; (b) resultados positivos de auditoria acima das projeções; (c) timing do anúncio público ('na semana que vem'); (d) estimativa de aumento de lucro de 40% no próximo trimestre; (e) projeção de valorização das ações em 30%; (f) assinatura recente do contrato final; (g) data específica do anúncio (terça-feira); (h) informações sobre EBITDA; (i) existência de sinergias operacionais maiores que o previsto; (j) valor exato da aquisição (780 milhões); (k) prêmio de 25% sobre o valor de mercado; (l) projeção de recuperação do investimento em 18 meses.\n\n3. Classificação das informações: As informações compartilhadas por Carlos são claramente MNPI porque: (a) não foram divulgadas publicamente; (b) têm impacto material no valor da empresa e potencial de alterar significativamente o preço das ações; (c) seriam consideradas relevantes por um investidor razoável para tomar decisões de investimento.\n\n4. Elementos agravantes: (a) Carlos explicita que o mercado desconhece estas informações ('De jeito nenhum'); (b) solicita sigilo ('isso fica entre nós'); (c) incentiva diretamente o uso das informações para ganho financeiro ('se fosse você, compraria o quanto antes'); (d) há histórico de vazamento similar anterior ('Carlos sempre tem essas informações privilegiadas' e menção a uma fusão anterior); (e) Bruno demonstra intenção clara de usar as informações para negociar valores mobiliários ('vou ligar para meu corretor amanhã cedo').\n\n5. Refinamento da análise: Considerando todos os elementos, confirmo que o diálogo contém claros indícios de vazamento de MNPI. Carlos, como insider primário (CFO), compartilha deliberadamente múltiplas informações materiais não públicas com pessoas sem necessidade de conhecimento (Marcela e Bruno), que demonstram intenção de usá-las para ganho financeiro pessoal.\n\n6. Considerações regulatórias: Este cenário representa uma clara violação das leis de valores mobiliários que proíbem insider trading. A legislação (como a Regra 10b-5 da SEC nos EUA ou equivalentes em outras jurisdições) proíbe a divulgação de informações materiais não públicas a terceiros que possam negociar com base nelas. A situação apresenta todos os elementos de uma violação de tipping: (a) insider com informação material não pública; (b) divulgação a terceiros; (c) expectativa de benefício pessoal (pelo menos o de manter relações sociais).\n\n7. Conclusão: O caso apresenta um risco ALTO de violação regulatória, com evidências diretas de divulgação intencional de MNPI e potencial insider trading.",
+ 
+ "analise_do_texto": "O diálogo apresenta um caso flagrante de vazamento de MNPI, onde Carlos (CFO) compartilha detalhes específicos e materiais sobre uma aquisição corporativa ainda não anunciada com pessoas externas à empresa (Marcela e Bruno). As informações divulgadas são claramente materiais, incluindo projeções de aumento de lucros (40%), valorização esperada das ações (30%), valor exato da transação (780 milhões), timing do anúncio público e sinergias operacionais não previstas pelo mercado. Carlos não apenas divulga essas informações como também incentiva explicitamente o uso delas para ganho financeiro ('compraria o quanto antes'), enquanto Bruno demonstra intenção clara de agir com base nas informações ('vou ligar para meu corretor amanhã cedo'). A conversa sugere ainda um padrão recorrente de comportamento, com menção a episódio similar anterior envolvendo uma fusão.",
+ 
+ "probabilidade_MNPI": "99%",
+ 
+ "classificacao_de_risco": "Alto"
+}
+
+
+retorno: Gemini
+{
+  "raciocinio_usado": "1. **Entendimento do Contexto:** A conversa ocorre entre Carlos (Diretor Financeiro de uma empresa), Marcela (amiga de Carlos) e Bruno (primo de Marcela). O assunto principal gira em torno de uma aquisição não anunciada pela empresa de Carlos.
+
+2. **Identificação de Expressões, Dados e Eventos Futuros:**
+    * \"finalizando aquela aquisição que te comentei em sigilo.\" - Menção a um evento futuro (finalização da aquisição) e sua natureza confidencial.
+    * \"Os números da auditoria vieram bem acima das nossas projeções.\" - Informação sobre resultados internos não públicos e seu impacto positivo.
+    * \"Quando anunciarmos na semana que vem, o mercado vai enlouquecer.\" - Previsão do impacto do anúncio no mercado.
+    * \"aquisição está praticamente fechada e vai aumentar nosso lucro em pelo menos 40% já no próximo trimestre.\" - Informação quantitativa sobre o impacto financeiro futuro da aquisição, não pública e material.
+    * \"nossos analistas estimam que as ações devem subir uns 30% quando anunciarmos oficialmente.\" - Opinião interna sobre a valorização futura das ações após o anúncio.
+    * \"Aquela fusão ano passado? Quem investiu na época teve um retorno incrível.\" - Referência a um evento passado onde informação privilegiada aparentemente foi compartilhada.
+    * \"compraria o quanto antes.\" - Sugestão direta de investimento baseada em informação não pública.
+    * \"já assinamos o contrato final. A documentação está sendo preparada para o anúncio na terça-feira.\" - Detalhe temporal preciso sobre um evento futuro significativo.
+    * \"Os relatórios financeiros são impressionantes, especialmente o EBITDA deles.\" - Avaliação qualitativa positiva de dados financeiros não públicos.
+    * \"Nosso departamento jurídico já preparou todo o material para a Comissão de Valores.\" - Indicação de que o anúncio regulatório está iminente.
+    * \"encontramos sinergias operacionais muito maiores do que o previsto inicialmente.\" - Informação adicional não pública que pode impactar o valor da empresa.
+    * \"780 milhões. É um prêmio de 25% sobre o valor de mercado atual...\" - Detalhes financeiros específicos e não públicos da transação.
+
+3. **Classificação de Indícios de MNPI:** Há múltiplos indícios fortes de informação não pública material sendo divulgada. Carlos, um diretor financeiro, compartilha detalhes confidenciais sobre uma aquisição pendente, seus resultados financeiros internos, o momento do anúncio e o impacto esperado no preço das ações com pessoas externas à empresa sem qualquer necessidade profissional. A materialidade é evidente pelo potencial impacto significativo no preço das ações (aumento estimado de 30% no anúncio e aumento de 40% no lucro).
+
+4. **Raciocínio Passo a Passo:**
+    * Carlos revela a Marcela a existência de uma aquisição confidencial.
+    * Ele fornece detalhes sobre o desempenho financeiro da empresa adquirida, indicando que superou as expectativas internas.
+    * Carlos explicita o momento do anúncio público (próxima semana) e prevê um impacto significativo no mercado.
+    * Em conversa com Bruno, Carlos reforça a situação financeira positiva e quantifica o aumento esperado no lucro devido à aquisição.
+    * Ele compartilha a expectativa de um aumento de 30% no preço das ações após o anúncio, instruindo implicitamente Bruno a investir antes da divulgação pública.
+    * Carlos confirma que o contrato de aquisição foi assinado e que o anúncio ocorrerá na terça-feira.
+    * Ele menciona detalhes específicos dos relatórios financeiros (EBITDA) e sinergias operacionais não divulgadas.
+    * Carlos revela o valor exato da aquisição e o prêmio pago, informações altamente relevantes para investidores.
+    * A reação de Bruno em pegar o celular sugere uma intenção de agir com base na informação recebida.
+    * A menção de Marcela a eventos passados semelhantes reforça um padrão de compartilhamento de informações privilegiadas por Carlos.
+
+5. **Refinamento da Análise:** A análise inicial é fortemente corroborada pela sequência de informações sensíveis divulgadas. A natureza das informações (aquisição, impacto financeiro, momento do anúncio, preço da transação) é inequivocamente material e sua divulgação a indivíduos externos antes da divulgação pública constitui um sério risco de vazamento de MNPI. A intenção de Bruno de investir imediatamente após receber a informação agrava ainda mais a situação.
+
+6. **Utilização de Conhecimento Prévio e Senso Regulatório:** Em um cenário real, a divulgação de detalhes de uma aquisição não anunciada, especialmente com previsões de impacto no preço das ações e lucro, violaria regulamentações de mercado como a SEC nos EUA ou a CVM no Brasil, que proíbem o uso e a disseminação de informações privilegiadas para negociação ou para influenciar decisões de investimento antes que tais informações sejam tornadas públicas de forma equitativa. A menção específica ao preparo de material para a Comissão de Valores reforça a iminência do anúncio público, tornando a informação ainda mais sensível.
+
+7. **Atribuição de Classificação de Risco:** ALTO. A conversa contém múltiplas instâncias de divulgação de informações não públicas materiais por um insider corporativo a indivíduos externos, com clara implicação de potencial uso dessas informações para negociação antes da divulgação pública.
+
+},
+  "analise_do_texto": "O diálogo revela um potencial vazamento significativo de Informação Material Não Pública (MNPI). Carlos, o Diretor Financeiro, compartilha detalhes confidenciais sobre uma aquisição pendente, incluindo seus resultados financeiros positivos, o cronograma do anúncio público, o impacto esperado no preço das ações e no lucro da empresa, além do valor da transação e das sinergias operacionais. Essas informações são claramente materiais, pois têm o potencial de influenciar as decisões de investimento dos acionistas. A divulgação ocorre em um contexto informal com amigos/familiares, levantando sérias preocupações sobre o uso indevido dessas informações para ganho pessoal. A sugestão implícita de Carlos para Bruno investir antes do anúncio agrava ainda mais a situação.",
+  "probabilidade_MNPI": "95%",
+  "classificacao_de_risco": "ALTO"
+}
+
+retorno: deepseek
+{
+  "raciocinio_usado": "1. Contexto: Diálogo entre Carlos (CFO), Marcela (amiga) e Bruno (primo de Marcela) sobre aquisição iminente de empresa de tecnologia. 2. Identificação de MNPI: Carlos revela detalhes específicos e não públicos: (a) Aquisição a ser anunciada na semana seguinte; (b) Números da auditoria superiores às projeções; (c) Impacto de +40% no lucro já no próximo trimestre; (d) Estimativa de alta de 30% nas ações pós-anúncio; (e) Valor exato da aquisição (780 milhões) e prêmio de 25%; (f) Sinergias operacionais não precificadas pelo mercado; (g) Assinatura do contrato final e cronograma do anúncio. 3. Classificação: Todas as informações são materiais (afetariam decisões de investidores) e não públicas (ainda não divulgadas ao mercado). 4. Contexto regulatório: CFO compartilhando dados confidenciais com terceiros fora do ambiente controlado, incentivando investimento com base em informações privilegiadas. 5. Reavaliação: Elementos são explícitos e específicos, configurando clara violação de compliance.",
+  "analise_do_texto": "O CFO compartilhou detalhes operacionais, financeiros e temporais críticos sobre uma aquisição iminente, incluindo métricas quantitativas (EBITDA, valor da transação) e efeitos esperados no preço das ações. Houve menção explícita ao sigilo ('isso fica entre nós') e sugestão de vantagem informacional ('compraria o quanto antes'). A combinação de: (1) posição hierárquica do interlocutor, (2) especificidade numérica, (3) calendário preciso do anúncio e (4) incentivo à ação financeira configura violação grave.",
+  "probabilidade_MNPI": "95%",
+  "classificacao_de_risco": "Alto"
+}
